@@ -76,12 +76,13 @@
   text-decoration: none;
   letter-spacing: -0.02em;
 }
-.logoIcon {
-  font-size: 1.4rem;
-  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.mainLogoImg {
+  border-radius: 6px;
+  object-fit: contain;
+}
+.footerLogoImg {
+  border-radius: 4px;
+  object-fit: contain;
 }
 
 .navLinks {
@@ -324,6 +325,20 @@
 /* ────────────────────────────────────────────
    ABOUT
 ──────────────────────────────────────────── */
+.aboutBannerWrap {
+  position: relative;
+  width: 100%;
+  max-height: 550px;
+  margin: 0 auto 3.5rem auto;
+  aspect-ratio: 2752 / 1536;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+}
+.aboutBannerImg {
+  object-fit: cover;
+}
 .aboutGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;

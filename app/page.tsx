@@ -291,7 +291,7 @@ export default function Home() {
       {/* ── NAV ── */}
       <nav className={styles.nav}>
         <a href="#top" className={styles.logo}>
-          <span className={styles.logoIcon}>⬡</span>
+          <Image src="/Rounded.png" alt="Salela Bongo Logo" width={32} height={32} className={styles.mainLogoImg} />
           <span>Salela Bongo</span>
         </a>
         <div className={styles.navLinks}>
@@ -351,6 +351,9 @@ export default function Home() {
         <div className={styles.sectionInner}>
           <div className={styles.sectionLabel}>Company</div>
           <h2 className={styles.sectionTitle}>{txt.about.title}</h2>
+          <div className={styles.aboutBannerWrap}>
+            <Image src="/Background.jpeg" alt="Salela Bongo LLC" fill className={styles.aboutBannerImg} />
+          </div>
           <div className={styles.aboutGrid}>
             <div className={styles.aboutText}>
               <p className={styles.aboutPara}>{txt.about.desc1}</p>
@@ -469,7 +472,7 @@ export default function Home() {
       <footer className={styles.footer}>
         <div className={styles.footerInner}>
           <div className={styles.footerLogo}>
-            <span className={styles.logoIcon}>⬡</span>
+            <Image src="/Rounded.png" alt="Salela Bongo Logo" width={24} height={24} className={styles.footerLogoImg} />
             <span>Salela Bongo LLC</span>
           </div>
           <p className={styles.footerCopy}>
