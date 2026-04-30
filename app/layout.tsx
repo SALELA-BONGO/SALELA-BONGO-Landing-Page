@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Salela Bongo LLC — Building Africa's Digital Future",
+  title: "Salela Bongo LLC — Apprenez. Changez Votre Vie. / Learn. Change Your Life.",
   description:
-    "Salela Bongo LLC is a US-registered technology company building mobile apps and digital platforms for Africa and its diaspora. Products include Jeux de Dames, Yekola, and Yebela Store.",
+    "Salela Bongo LLC est une société technologique américaine qui construit des applications mobiles et des plateformes numériques pour l'Afrique et sa diaspora. Nos produits incluent Jeux de Dames, Yekola et Yebela Store. — Salela Bongo LLC is a US-registered technology company building mobile apps and digital platforms for Africa and its diaspora. Products include Jeux de Dames, Yekola, and Yebela Store.",
   keywords: [
     "Salela Bongo",
     "African apps",
@@ -26,21 +26,37 @@ export const metadata: Metadata = {
     "African technology",
     "iOS apps Africa",
     "Android apps Africa",
+    "applications africaines",
+    "technologie Afrique",
+    "diaspora africaine",
+    "apprentissage en ligne",
   ],
   authors: [{ name: "Salela Bongo LLC" }],
   openGraph: {
-    title: "Salela Bongo LLC — Building Africa's Digital Future",
+    title: "Salela Bongo LLC — Apprenez. Changez Votre Vie.",
     description:
-      "Mobile apps and digital platforms built for Africa — in French, English, and Lingala.",
+      "Applications mobiles et plateformes numériques conçues pour l'Afrique — en français, anglais et lingala. / Mobile apps and digital platforms built for Africa — in French, English, and Lingala.",
     url: "https://salelabongo.org",
     siteName: "Salela Bongo LLC",
     locale: "fr_FR",
+    alternateLocale: ["en_US"],
     type: "website",
+    images: [
+      {
+        url: "https://salelabongo.org/main.jpeg",
+        width: 2168,
+        height: 1952,
+        alt: "Salela Bongo LLC — Apprenez. Changez Votre Vie. / Learn. Change Your Life.",
+        type: "image/jpeg",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Salela Bongo LLC",
-    description: "Building Africa's Digital Future",
+    title: "Salela Bongo LLC — Apprenez. Changez Votre Vie.",
+    description:
+      "Applications mobiles et plateformes numériques pour l'Afrique et sa diaspora. / Mobile apps and digital platforms for Africa and its diaspora.",
+    images: ["https://salelabongo.org/main.jpeg"],
   },
   icons: {
     icon: [
