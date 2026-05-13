@@ -412,6 +412,9 @@
   transition: all 0.3s;
   position: relative;
   overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 .appCard::before {
   content: "";
@@ -536,6 +539,102 @@
   transition: opacity 0.2s;
 }
 .appCTA:hover { opacity: 0.75; }
+
+/* ────────────────────────────────────────────
+   DARAKILI VISION
+──────────────────────────────────────────── */
+.darakiliCard {
+  background: rgba(16, 185, 129, 0.06);
+  border: 1px solid rgba(16, 185, 129, 0.2);
+  border-radius: 20px;
+  padding: 2rem 2.25rem;
+  margin-bottom: 3rem;
+  max-width: 800px;
+  backdrop-filter: blur(12px);
+}
+
+.darakiliNameTitle {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #10b981;
+  margin-bottom: 1.25rem;
+  letter-spacing: 0.02em;
+}
+
+.darakiliWords {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.darakiliWord {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.darakiliWordRoot {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #f1f5f9;
+  background: rgba(16, 185, 129, 0.15);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  padding: 0.3rem 0.9rem;
+  border-radius: 8px;
+}
+
+.darakiliWordArrow {
+  color: #10b981;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.darakiliWordMeaning {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #34d399;
+}
+
+.darakiliWordDetail {
+  font-size: 0.82rem;
+  color: #64748b;
+  font-style: italic;
+}
+
+.darakiliPortmanteau {
+  font-size: 0.95rem;
+  color: #94a3b8;
+  line-height: 1.8;
+  border-top: 1px solid rgba(16, 185, 129, 0.15);
+  padding-top: 1.25rem;
+  margin: 0;
+}
+
+.darakiliVisionTitle {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #f1f5f9;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  max-width: 800px;
+}
+
+.darakiliVisionTitle::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 1.25rem;
+  background: linear-gradient(180deg, #10b981, #3b82f6);
+  border-radius: 2px;
+  flex-shrink: 0;
+}
 
 /* ────────────────────────────────────────────
    LEGAL

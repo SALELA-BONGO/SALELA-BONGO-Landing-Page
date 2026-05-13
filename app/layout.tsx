@@ -16,12 +16,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Salela Bongo LLC — Apprenez. Changez Votre Vie. / Learn. Change Your Life.",
   description:
-    "Salela Bongo LLC est une société technologique américaine qui construit des applications mobiles et des plateformes numériques pour l'Afrique et sa diaspora. Nos produits incluent Jeux de Dames, Yekola et Yebela Store. — Salela Bongo LLC is a US-registered technology company building mobile apps and digital platforms for Africa and its diaspora. Products include Jeux de Dames, Yekola, and Yebela Store.",
+    "Salela Bongo LLC est une société technologique américaine qui construit des applications mobiles et des plateformes numériques pour l'Afrique et sa diaspora. Nos produits incluent Jeux de Dames, DarAkili et Yebela Store. — Salela Bongo LLC is a US-registered technology company building mobile apps and digital platforms for Africa and its diaspora. Products include Jeux de Dames, DarAkili, and Yebela Store.",
   keywords: [
     "Salela Bongo",
     "African apps",
     "Jeux de Dames",
-    "Yekola",
+    "DarAkili",
     "Yebela",
     "African technology",
     "iOS apps Africa",

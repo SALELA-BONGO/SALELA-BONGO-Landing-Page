@@ -43,27 +43,15 @@ const t = {
       sub: "Trois produits — un seul engagement envers l'excellence.",
       list: [
         {
-          id: "jeuxdedames",
-          logo: "/logo-jeuxdedames.png",
-          logoBg: true,
-          name: "Jeux de Dames",
-          domain: "jeuxdedames.africa",
-          tag: "En ligne · iOS · Android",
-          color: "#3b82f6",
-          desc: "Plateforme de jeu de dames en ligne avec variantes congolaise, internationale et américaine. Jeux en temps réel, chat, abonnement premium et profils utilisateurs.",
-          features: ["Jeu en temps réel (WebSocket)", "3 variantes de jeu", "Abonnement Premium", "iOS & Android"],
-          url: "https://jeuxdedames.africa",
-        },
-        {
-          id: "yekola",
-          logo: "/logo-yekola.jpeg",
-          name: "Yekola",
-          domain: "yekola.africa",
-          tag: "Web · Mobile à venir",
+          id: "darakili",
+          logo: "/logo-darakili.png",
+          name: "DarAkili",
+          domain: "darakili.com",
+          tag: "Web · iOS & Android · À venir",
           color: "#10b981",
-          desc: "Plateforme d'apprentissage en ligne conçue pour l'Afrique — cours créés par des Africains, classements locaux par ville et pays, paiement mobile money inclus.",
+          desc: "DarAkili — mot-valise Swahili fusionnant Daraja (\"Pont\") et Akili (\"Intelligence\") — soit \"Le Pont de l'Intelligence\". Plateforme d'apprentissage en ligne conçue pour l'Afrique — cours créés par des Africains, classements locaux par ville et pays, paiement mobile money inclus.",
           features: ["Cours gratuits & payants", "Classements locaux", "Parrainage de cours", "Mobile Money"],
-          url: "https://yekola.africa",
+          url: "https://darakili.com",
         },
         {
           id: "yebela",
@@ -76,6 +64,34 @@ const t = {
           features: ["Boutique en 2 min", "Intégration WhatsApp", "Mobile Money", "PWA sans app store"],
           url: "https://yebela.store",
         },
+        {
+          id: "jeuxdedames",
+          logo: "/logo-jeuxdedames.png",
+          logoBg: true,
+          name: "Jeux de Dames",
+          domain: "jeuxdedames.africa",
+          tag: "Web · iOS & Android · À venir",
+          color: "#3b82f6",
+          desc: "Plateforme de jeu de dames en ligne avec variantes congolaise, internationale et américaine. Jeux en temps réel, chat, abonnement premium et profils utilisateurs.",
+          features: ["Jeu en temps réel (WebSocket)", "3 variantes de jeu", "Abonnement Premium", "iOS & Android"],
+          url: "https://jeuxdedames.africa",
+        },
+      ],
+    },
+    darakili: {
+      label: "DarAkili · Le Pont de l'Intelligence",
+      title: "La Vision derrière DarAkili",
+      nameTitle: "La Signification de DarAkili",
+      words: [
+        { word: "Daraja", meaning: "Pont", detail: "(aussi : Rang, Niveau, Grade, Escaliers)" },
+        { word: "Akili", meaning: "Intelligence", detail: "(aussi : Esprit, Intellect, Cerveau)" },
+      ],
+      portmanteau: "Combiné en un mot-valise, DarAkili porte un sens figuré profond : celui de connecter les idées, de combler les lacunes en matière de connaissances et d'offrir une véritable passerelle vers l'intelligence et la compréhension mutuelle.",
+      visionTitle: "Notre Vision : Le Transfert de Connaissances",
+      paragraphs: [
+        "Pendant des décennies, les services d'envoi de fonds (remittances) ont été le principal pont utilisé par la diaspora africaine pour envoyer de l'argent vers le continent afin de soutenir nos familles et développer nos communautés.",
+        "Bien que le capital financier soit important, la véritable richesse réside dans l'esprit. Aujourd'hui, nous voulons envoyer quelque chose d'encore plus puissant que l'argent. Avec DarAkili, nous introduisons un nouveau type de transfert : <strong>le transfert de connaissances</strong>.",
+        "Notre vision est de connecter les Africains du monde entier les uns aux autres, pour partager l'intelligence, les compétences et la sagesse — sans les limites des barrières linguistiques ni les contraintes des langues administratives occidentales. Nous pensons que l'intellect africain doit circuler librement à travers le monde sans avoir besoin de la validation de l'Occident. Il est temps d'utiliser nos cerveaux — <em>Salela Bongo</em> — pour partager le savoir, échanger des idées et élever notre intelligence collective.",
       ],
     },
     legal: {
@@ -132,27 +148,15 @@ const t = {
       sub: "Three products — one commitment to excellence.",
       list: [
         {
-          id: "jeuxdedames",
-          logo: "/logo-jeuxdedames.png",
-          logoBg: true,
-          name: "Jeux de Dames",
-          domain: "jeuxdedames.africa",
-          tag: "Online · iOS · Android",
-          color: "#3b82f6",
-          desc: "Online checkers platform with Congolese, International and American variants. Real-time gameplay, in-game chat, premium subscription and user profiles.",
-          features: ["Real-time play (WebSocket)", "3 game variants", "Premium subscription", "iOS & Android"],
-          url: "https://jeuxdedames.africa",
-        },
-        {
-          id: "yekola",
-          logo: "/logo-yekola.jpeg",
-          name: "Yekola",
-          domain: "yekola.africa",
-          tag: "Web · Mobile coming soon",
+          id: "darakili",
+          logo: "/logo-darakili.png",
+          name: "DarAkili",
+          domain: "darakili.com",
+          tag: "Web · iOS & Android · Coming Soon",
           color: "#10b981",
-          desc: "Online learning platform built for Africa — courses authored by Africans, local leaderboards by city and country, mobile money payments included.",
+          desc: "DarAkili — a Swahili portmanteau of Daraja (\"Bridge\") and Akili (\"Intelligence\") — meaning \"Bridge of Intelligence\". Online learning platform built for Africa — courses authored by Africans, local leaderboards by city and country, mobile money payments included.",
           features: ["Free & paid courses", "Local leaderboards", "Course sponsorship", "Mobile Money"],
-          url: "https://yekola.africa",
+          url: "https://darakili.com",
         },
         {
           id: "yebela",
@@ -165,6 +169,34 @@ const t = {
           features: ["Shop in 2 minutes", "WhatsApp integration", "Mobile Money", "PWA — no app store needed"],
           url: "https://yebela.store",
         },
+        {
+          id: "jeuxdedames",
+          logo: "/logo-jeuxdedames.png",
+          logoBg: true,
+          name: "Jeux de Dames",
+          domain: "jeuxdedames.africa",
+          tag: "Web · iOS & Android · Coming Soon",
+          color: "#3b82f6",
+          desc: "Online checkers platform with Congolese, International and American variants. Real-time gameplay, in-game chat, premium subscription and user profiles.",
+          features: ["Real-time play (WebSocket)", "3 game variants", "Premium subscription", "iOS & Android"],
+          url: "https://jeuxdedames.africa",
+        },
+      ],
+    },
+    darakili: {
+      label: "DarAkili · Bridge of Intelligence",
+      title: "The Vision Behind DarAkili",
+      nameTitle: "The Meaning of DarAkili",
+      words: [
+        { word: "Daraja", meaning: "Bridge", detail: "(also: Rank, Level, Grade, Stairs)" },
+        { word: "Akili", meaning: "Intelligence", detail: "(also: Mind, Intellect, Brain)" },
+      ],
+      portmanteau: "When combined into DarAkili (a portmanteau blending the two words), it carries the profound figurative meaning of connecting ideas, bridging knowledge gaps, and providing a pathway to intelligence and collective understanding.",
+      visionTitle: "Our Vision: The Remittance of Knowledge",
+      paragraphs: [
+        "For decades, financial remittance services have been the primary bridge connecting the African diaspora to the continent, allowing us to send money back home to support our families and build our communities.",
+        "While capital is important, true wealth lies in the mind. Today, we want to send back something even more powerful than money. With DarAkili, we are introducing a new kind of remittance: <strong>the remittance of knowledge</strong>.",
+        "Our ultimate vision is to connect Africans across the globe directly to each other — sharing intelligence, skills, and wisdom without the limitations of language barriers or the constraints of Western administrative languages. We believe that African intellect should flow seamlessly across the world without needing Western validation. It is time to use our brains — <em>Salela Bongo</em> — to share knowledge, exchange ideas, and elevate our collective intellect.",
       ],
     },
     legal: {
@@ -221,27 +253,15 @@ const t = {
       sub: "Biloko misato — commitment moko ya malamu.",
       list: [
         {
-          id: "jeuxdedames",
-          logo: "/logo-jeuxdedames.png",
-          logoBg: true,
-          name: "Jeux de Dames",
-          domain: "jeuxdedames.africa",
-          tag: "Online · iOS · Android",
-          color: "#3b82f6",
-          desc: "Plateau ya jeu de dames online na variantes ya Congo, Internationale mpe Américaine. Jeu ya temps réel, chat, abonnement premium mpe profils.",
-          features: ["Jeu ya temps réel", "Variantes 3", "Premium", "iOS & Android"],
-          url: "https://jeuxdedames.africa",
-        },
-        {
-          id: "yekola",
-          logo: "/logo-yekola.jpeg",
-          name: "Yekola",
-          domain: "yekola.africa",
-          tag: "Web · Mobile ekoya",
+          id: "darakili",
+          logo: "/logo-darakili.png",
+          name: "DarAkili",
+          domain: "darakili.com",
+          tag: "Web · iOS & Android · Ekoya",
           color: "#10b981",
-          desc: "Plateforme ya koyekola online esalama mpo na Afrika — ba cours esalami na ba Africains, classements ya locale, mobile money.",
+          desc: "DarAkili — nkombo oyo esangisi Daraja (\"Gbagba\") mpe Akili (\"Mayele\") na Swahili — yango elakisi \"Gbagba ya Mayele\". Plateforme ya koyekola online esalama mpo na Afrika — ba cours esalami na ba Africains, classements ya locale, mobile money.",
           features: ["Ba cours ya ofele", "Classements locale", "Sponsor cours", "Mobile Money"],
-          url: "https://yekola.africa",
+          url: "https://darakili.com",
         },
         {
           id: "yebela",
@@ -254,6 +274,34 @@ const t = {
           features: ["Boutique na miniti 2", "WhatsApp", "Mobile Money", "PWA"],
           url: "https://yebela.store",
         },
+        {
+          id: "jeuxdedames",
+          logo: "/logo-jeuxdedames.png",
+          logoBg: true,
+          name: "Jeux de Dames",
+          domain: "jeuxdedames.africa",
+          tag: "Web · iOS & Android · Ekoya",
+          color: "#3b82f6",
+          desc: "Plateau ya jeu de dames online na variantes ya Congo, Internationale mpe Américaine. Jeu ya temps réel, chat, abonnement premium mpe profils.",
+          features: ["Jeu ya temps réel", "Variantes 3", "Premium", "iOS & Android"],
+          url: "https://jeuxdedames.africa",
+        },
+      ],
+    },
+    darakili: {
+      label: "DarAkili · Gbagba ya Mayele",
+      title: "Emoniseli mpe Mposa ya DarAkili",
+      nameTitle: "Ndimbola ya DarAkili",
+      words: [
+        { word: "Daraja", meaning: "Gbagba", detail: "(mpe: Niveau, Kelasi, Matambe ya escalier)" },
+        { word: "Akili", meaning: "Mayele", detail: "(mpe: Bwanya, Makanisi, Bongo)" },
+      ],
+      portmanteau: "Soki tosangisi maloba yango mibale mpo na kobimisa DarAkili, ememi ndimbola ya mozindo ya kokangisa makanisi, kosilisa bozangi boyebi, mpe kofungola nzela ya kopesa mayele mpe bososoli mpo na bato nionso.",
+      visionTitle: "Emoniseli na Biso: Kotinda Boyebi (Remittance ya Mayele)",
+      paragraphs: [
+        "Banda bambula ebele, misala ya kotinda mbongo (remittances) nde ezalaki gbagba monene oyo ekangisaki bana ya diaspora na ba oyo bazali na continent ya Afrika, mpo na kotinda mosolo ya kosunga mabota mpe kotonga mboka.",
+        "Atako mbongo ezali na ntina, bozwi ya solosolo ezali na kati ya bongo. Lelo oyo, tolingi kotinda biloko oyo eleki mbongo na nguya. Na nzela ya DarAkili, tozali kobimisa lolenge ya sika ya botindi: <strong>kotinda mpe kokabola boyebi</strong>.",
+        "Mokano na biso ya monene ezali ya kosangisa bana ya Afrika ya mokili mobimba bango na bango — mpo bákabola mayele, makoki, mpe bwanya, kozanga epekiseli ya minoko to mikakatano ya langues administratives ya ba mindele. Tondimi ete mayele ya bana ya Afrika esengeli kotambola ofele na mokili mobimba kozanga ete mindele bandimisa yango. Ngonga ekoki — <em>Salela Bongo</em> — mpo na kokabola boyebi, kosangisa makanisi, mpe kotombola mayele na biso nionso.",
       ],
     },
     legal: {
@@ -382,16 +430,21 @@ export default function Home() {
           <p className={styles.sectionSub}>{txt.apps.sub}</p>
           <div className={styles.appsGrid}>
             {txt.apps.list.map((app) => (
-              <div key={app.id} className={styles.appCard} style={{ "--app-color": app.color } as React.CSSProperties}>
+              <a
+                key={app.id}
+                href={app.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.appCard}
+                style={{ "--app-color": app.color } as React.CSSProperties}
+              >
                 <div className={styles.appCardHeader}>
                   <div className={`${styles.appLogoWrap} ${"logoBg" in app && app.logoBg ? styles.appLogoWhiteBg : ""}`}>
                     <Image src={app.logo} alt={app.name} width={56} height={56} className={styles.appLogo} />
                   </div>
                   <div className={styles.appHeaderInfo}>
                     <div className={styles.appName}>{app.name}</div>
-                    <a href={app.url} target="_blank" rel="noopener noreferrer" className={styles.appDomain}>
-                      {app.domain} ↗
-                    </a>
+                    <span className={styles.appDomain}>{app.domain} ↗</span>
                   </div>
                 </div>
                 <div className={styles.appTagRow}>
@@ -406,10 +459,42 @@ export default function Home() {
                     </li>
                   ))}
                 </ul>
-                <a href={app.url} target="_blank" rel="noopener noreferrer" className={styles.appCTA}>
+                <span className={styles.appCTA}>
                   Visiter {app.domain} ↗
-                </a>
-              </div>
+                </span>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── DARAKILI VISION ── */}
+      <section id="darakili-vision" className={styles.section}>
+        <div className={styles.sectionInner}>
+          <div className={styles.sectionLabel}>🌉 {txt.darakili.label}</div>
+          <h2 className={styles.sectionTitle}>{txt.darakili.title}</h2>
+
+          {/* Word breakdown */}
+          <div className={styles.darakiliCard}>
+            <div className={styles.darakiliNameTitle}>{txt.darakili.nameTitle}</div>
+            <div className={styles.darakiliWords}>
+              {txt.darakili.words.map((w) => (
+                <div key={w.word} className={styles.darakiliWord}>
+                  <span className={styles.darakiliWordRoot}>{w.word}</span>
+                  <span className={styles.darakiliWordArrow}>→</span>
+                  <span className={styles.darakiliWordMeaning}>{w.meaning}</span>
+                  <span className={styles.darakiliWordDetail}>{w.detail}</span>
+                </div>
+              ))}
+            </div>
+            <p className={styles.darakiliPortmanteau}>{txt.darakili.portmanteau}</p>
+          </div>
+
+          {/* Vision */}
+          <div className={styles.darakiliVisionTitle}>{txt.darakili.visionTitle}</div>
+          <div className={styles.missionParagraphs}>
+            {txt.darakili.paragraphs.map((p, i) => (
+              <p key={i} className={styles.missionPara} dangerouslySetInnerHTML={{ __html: p }} />
             ))}
           </div>
         </div>
@@ -448,14 +533,14 @@ export default function Home() {
             </div>
             <div className={styles.contactCard}>
               <div className={styles.contactCardTitle}>{txt.contact.apps_contact}</div>
-              <a href="mailto:contact@jeuxdedames.africa" className={styles.contactEmail}>
-                contact@jeuxdedames.africa
+              <a href="mailto:jeuxdedames@salelabongo.org" className={styles.contactEmail}>
+                jeuxdedames@salelabongo.org
               </a>
             </div>
             <div className={styles.contactCard}>
-              <div className={styles.contactCardTitle}>Yekola</div>
-              <a href="mailto:yekola@salelabongo.org" className={styles.contactEmail}>
-                yekola@salelabongo.org
+              <div className={styles.contactCardTitle}>DarAkili</div>
+              <a href="mailto:darakili@salelabongo.org" className={styles.contactEmail}>
+                darakili@salelabongo.org
               </a>
             </div>
             <div className={styles.contactCard}>
