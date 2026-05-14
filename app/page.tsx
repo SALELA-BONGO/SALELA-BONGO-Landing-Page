@@ -91,7 +91,7 @@ const t = {
       paragraphs: [
         "Pendant des décennies, les services d'envoi de fonds (remittances) ont été le principal pont utilisé par la diaspora africaine pour envoyer de l'argent vers le continent afin de soutenir nos familles et développer nos communautés.",
         "Bien que le capital financier soit important, la véritable richesse réside dans l'esprit. Aujourd'hui, nous voulons envoyer quelque chose d'encore plus puissant que l'argent. Avec DarAkili, nous introduisons un nouveau type de transfert : <strong>le transfert de connaissances</strong>.",
-        "Notre vision est de connecter les Africains du monde entier les uns aux autres, pour partager l'intelligence, les compétences et la sagesse — sans les limites des barrières linguistiques ni les contraintes des langues administratives occidentales. Nous pensons que l'intellect africain doit circuler librement à travers le monde sans avoir besoin de la validation de l'Occident. Il est temps d'utiliser nos cerveaux — <em>Salela Bongo</em> — pour partager le savoir, échanger des idées et élever notre intelligence collective.",
+        "Notre vision est de connecter les Africains du monde entier les uns aux autres — partageant l'intelligence, les compétences et la sagesse à travers les frontières et les langues. Nous croyons que l'intellect africain doit circuler librement à travers le monde. Il est temps d'utiliser nos cerveaux — <em>Salela Bongo</em> — pour partager le savoir, échanger des idées et élever notre intelligence collective.",
       ],
     },
     legal: {
@@ -196,7 +196,7 @@ const t = {
       paragraphs: [
         "For decades, financial remittance services have been the primary bridge connecting the African diaspora to the continent, allowing us to send money back home to support our families and build our communities.",
         "While capital is important, true wealth lies in the mind. Today, we want to send back something even more powerful than money. With DarAkili, we are introducing a new kind of remittance: <strong>the remittance of knowledge</strong>.",
-        "Our ultimate vision is to connect Africans across the globe directly to each other — sharing intelligence, skills, and wisdom without the limitations of language barriers or the constraints of Western administrative languages. We believe that African intellect should flow seamlessly across the world without needing Western validation. It is time to use our brains — <em>Salela Bongo</em> — to share knowledge, exchange ideas, and elevate our collective intellect.",
+        "Our ultimate vision is to connect Africans across the globe directly to each other — sharing intelligence, skills, and wisdom across borders and languages. We believe that African intellect should flow seamlessly across the world. It is time to use our brains — <em>Salela Bongo</em> — to share knowledge, exchange ideas, and elevate our collective intellect.",
       ],
     },
     legal: {
@@ -301,7 +301,7 @@ const t = {
       paragraphs: [
         "Banda bambula ebele, misala ya kotinda mbongo (remittances) nde ezalaki gbagba monene oyo ekangisaki bana ya diaspora na ba oyo bazali na continent ya Afrika, mpo na kotinda mosolo ya kosunga mabota mpe kotonga mboka.",
         "Atako mbongo ezali na ntina, bozwi ya solosolo ezali na kati ya bongo. Lelo oyo, tolingi kotinda biloko oyo eleki mbongo na nguya. Na nzela ya DarAkili, tozali kobimisa lolenge ya sika ya botindi: <strong>kotinda mpe kokabola boyebi</strong>.",
-        "Mokano na biso ya monene ezali ya kosangisa bana ya Afrika ya mokili mobimba bango na bango — mpo bákabola mayele, makoki, mpe bwanya, kozanga epekiseli ya minoko to mikakatano ya langues administratives ya ba mindele. Tondimi ete mayele ya bana ya Afrika esengeli kotambola ofele na mokili mobimba kozanga ete mindele bandimisa yango. Ngonga ekoki — <em>Salela Bongo</em> — mpo na kokabola boyebi, kosangisa makanisi, mpe kotombola mayele na biso nionso.",
+        "Mokano na biso ya monene ezali ya kosangisa bana ya Afrika ya mokili mobimba bango na bango — mpo bákabola mayele, makoki, mpe bwanya, na nzela ya mikolo mpe minoko nyonso. Tondimi ete mayele ya bana ya Afrika esengeli kotambola ofele na mokili mobimba. Ngonga ekoki — <em>Salela Bongo</em> — mpo na kokabola boyebi, kosangisa makanisi, mpe kotombola mayele na biso nionso.",
       ],
     },
     legal: {
