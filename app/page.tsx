@@ -18,11 +18,11 @@ const t = {
     },
     mission: {
       title: "Notre Mission",
-      quote: "Le monde a des salles de sport pour le corps — nous construisons des gymnases pour l'esprit africain.",
+      quote: "Le monde a des salles de sport pour le corps — nous construisons des gymnases pour l'intelligence africaine.",
       paragraphs: [
         "Salela Bongo LLC est née d'une conviction simple et puissante : l'intelligence africaine mérite des outils à sa hauteur. Notre nom, \"Salela Bongo\", est un appel en Lingala — \"Utilise ton cerveau\" — un cri de ralliement pour chaque Africain et chaque membre de la diaspora qui refuse de rester spectateur dans la révolution numérique.",
-        "Nous ne construisons pas simplement des applications. Nous forgeons des espaces où l'esprit africain peut s'exercer, apprendre, jouer et entreprendre — en français, en anglais et en lingala. Comme Masakhane (\"Nous construisons ensemble\"), nous croyons que l'avenir technologique de l'Afrique sera bâti par ceux qui comprennent son contexte, parlent ses langues et portent sa culture dans leur code.",
-        "Le sport nourrit le corps. Nous nourrissons l'esprit. Chaque partie de dames jouée, chaque cours suivi, chaque boutique créée sur nos plateformes est un exercice intellectuel — un pas de plus vers une Afrique qui pense, innove et domine le numérique.",
+        "Nous ne construisons pas simplement des applications. Nous forgeons des espaces où l'intelligence africaine peut s'exercer, apprendre, jouer et entreprendre — en français, en anglais et en lingala. Comme Masakhane (\"Nous construisons ensemble\"), nous croyons que l'avenir technologique de l'Afrique sera bâti par ceux qui comprennent son contexte, parlent ses langues et portent sa culture dans leur code.",
+        "Le sport nourrit le corps. Nous nourrissons l'intelligence. Chaque partie de dames jouée, chaque cours suivi, chaque boutique créée sur nos plateformes est un exercice intellectuel — un pas de plus vers une Afrique qui pense, innove et domine le numérique.",
         "Aujourd'hui, alors que le monde se concentre massivement sur l'entraînement de grands modèles d'intelligence artificielle (IA) et de grands modèles linguistiques (LLM), nous croyons qu'il faut d'abord entraîner le jeune cerveau africain. L'Afrique a la population la plus jeune du monde, avec un âge médian d'environ 19 ans. D'ici 2050, le continent sera le principal moteur de la croissance démographique mondiale, ce qui signifie que l'avenir du monde est intrinsèquement lié au développement intellectuel de la jeunesse africaine. (<a href=\"https://population.un.org/wpp/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #60a5fa; text-decoration: underline;\">Réf : Perspectives de la population mondiale des Nations Unies</a>)",
       ],
     },
@@ -90,7 +90,7 @@ const t = {
       visionTitle: "Notre Vision : Le Transfert de Connaissances",
       paragraphs: [
         "Pendant des décennies, les services d'envoi de fonds (remittances) ont été le principal pont utilisé par la diaspora africaine pour envoyer de l'argent vers le continent afin de soutenir nos familles et développer nos communautés.",
-        "Bien que le capital financier soit important, la véritable richesse réside dans l'esprit. Aujourd'hui, nous voulons envoyer quelque chose d'encore plus puissant que l'argent. Avec DarAkili, nous introduisons un nouveau type de transfert : <strong>le transfert de connaissances</strong>.",
+        "Bien que le capital financier soit important, la véritable richesse réside dans l'intelligence. Aujourd'hui, nous voulons envoyer quelque chose d'encore plus puissant que l'argent. Avec DarAkili, nous introduisons un nouveau type de transfert : <strong>le transfert de connaissances</strong>.",
         "Notre vision est de connecter les Africains du monde entier les uns aux autres — partageant l'intelligence, les compétences et la sagesse à travers les frontières et les langues. Nous croyons que l'intellect africain doit circuler librement à travers le monde. Il est temps d'utiliser nos cerveaux — <em>Salela Bongo</em> — pour partager le savoir, échanger des idées et élever notre intelligence collective.",
       ],
     },
