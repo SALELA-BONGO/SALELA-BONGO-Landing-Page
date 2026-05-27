@@ -100,6 +100,12 @@
   color: #f1f5f9;
 }
 
+.navRight {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
 .langSwitcher {
   display: flex;
   gap: 0.4rem;
@@ -745,6 +751,26 @@
   transition: color 0.2s;
 }
 .footerLinks a:hover { color: #94a3b8; }
+
+/* ────────────────────────────────────────────
+   SOCIAL
+──────────────────────────────────────────── */
+.socialLinks {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+.socialLink {
+  color: #94a3b8;
+  transition: color 0.2s, transform 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.socialLink:hover {
+  color: #f1f5f9;
+  transform: translateY(-2px);
+}
 
 /* ────────────────────────────────────────────
    RESPONSIVE
