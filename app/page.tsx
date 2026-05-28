@@ -8,12 +8,12 @@ type Language = "fr" | "en" | "ln";
 
 const t = {
   fr: {
-    nav: { about: "À propos", apps: "Nos Applications", contact: "Contact" },
+    nav: { about: "À propos", apps: "Nos Plateformes", contact: "Contact" },
     hero: {
       badge: "Salela Bongo LLC — « Utilise ton cerveau »",
       headline: "L'Afrique pense. L'Afrique crée. L'Afrique construit.",
-      sub: "\"Salela Bongo\" signifie \"Utilise ton cerveau\" en Lingala. Tout comme les salles de sport forgent le corps, nous croyons que le cerveau doit être entraîné. Nous construisons des applications par des Africains, pour des Africains — dans les langues de l'Afrique, avec le cœur de l'Afrique.",
-      cta: "Découvrir nos applications",
+      sub: "\"Salela Bongo\" signifie \"Utilise ton cerveau\" en Lingala. Tout comme les salles de sport forgent le corps, nous croyons que le cerveau doit être entraîné. Nous construisons des plateformes numériques par des Africains, pour des Africains — dans les langues de l'Afrique, avec le cœur de l'Afrique.",
+      cta: "Découvrir nos plateformes",
       ctaSub: "Nous contacter",
     },
     mission: {
@@ -21,14 +21,14 @@ const t = {
       quote: "Le monde a des salles de sport pour le corps — nous construisons des gymnases pour l'intelligence africaine.",
       paragraphs: [
         "Salela Bongo LLC est née d'une conviction simple et puissante : l'intelligence africaine mérite des outils à sa hauteur. Notre nom, \"Salela Bongo\", est un appel en Lingala — \"Utilise ton cerveau\" — un cri de ralliement pour chaque Africain et chaque membre de la diaspora qui refuse de rester spectateur dans la révolution numérique.",
-        "Nous ne construisons pas simplement des applications. Nous forgeons des espaces où l'intelligence africaine peut s'exercer, apprendre, jouer et entreprendre — en français, en anglais et en lingala. Comme Masakhane (\"Nous construisons ensemble\"), nous croyons que l'avenir technologique de l'Afrique sera bâti par ceux qui comprennent son contexte, parlent ses langues et portent sa culture dans leur code.",
+        "Nous sommes plus qu'une plateforme de développement. Nous forgeons des espaces où l'intelligence africaine peut s'exercer, apprendre, jouer et entreprendre — en français, en anglais et en lingala. Comme Masakhane (\"Nous construisons ensemble\"), nous croyons que l'avenir technologique de l'Afrique sera bâti par ceux qui comprennent son contexte, parlent ses langues et portent sa culture dans leur code.",
         "Le sport nourrit le corps. Nous nourrissons l'intelligence. Chaque partie de dames jouée, chaque cours suivi, chaque boutique créée sur nos plateformes est un exercice intellectuel — un pas de plus vers une Afrique qui pense, innove et domine le numérique.",
         "Aujourd'hui, alors que le monde se concentre massivement sur l'entraînement de grands modèles d'intelligence artificielle (IA) et de grands modèles linguistiques (LLM), nous croyons qu'il faut d'abord entraîner le jeune cerveau africain. L'Afrique a la population la plus jeune du monde, avec un âge médian d'environ 19 ans. D'ici 2050, le continent sera le principal moteur de la croissance démographique mondiale, ce qui signifie que l'avenir du monde est intrinsèquement lié au développement intellectuel de la jeunesse africaine. (<a href=\"https://population.un.org/wpp/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #60a5fa; text-decoration: underline;\">Réf : Perspectives de la population mondiale des Nations Unies</a>)",
       ],
     },
     about: {
       title: "Qui sommes-nous",
-      desc1: "Salela Bongo LLC est une société de technologie enregistrée aux États-Unis, fondée par des Africains passionnés qui comprennent les réalités, les langues et les aspirations du continent. Nous concevons des applications mobiles et des plateformes numériques pour l'Afrique et sa diaspora.",
+      desc1: "Salela Bongo LLC est une société de technologie enregistrée aux États-Unis, fondée par des Africains passionnés qui comprennent les réalités, les langues et les aspirations du continent. Nous concevons des solutions et plateformes numériques pour l'Afrique et sa diaspora.",
       desc2: "Nous ne sommes pas une entreprise qui regarde l'Afrique de loin — nous sommes l'Afrique. Nous parlons ses langues, nous vivons son contexte, et nous codons ses solutions. Chaque produit que nous créons est culturellement ancré, multilingue et pensé pour les réalités africaines.",
       items: [
         { icon: "🧠", label: "Philosophie", value: "Salela Bongo — Utilise ton cerveau" },
@@ -39,7 +39,7 @@ const t = {
       ],
     },
     apps: {
-      title: "Nos Applications",
+      title: "Nos Plateformes",
       sub: "Trois produits — un seul engagement envers l'excellence.",
       list: [
         {
@@ -96,7 +96,7 @@ const t = {
     },
     legal: {
       title: "Conformité & Légal",
-      sub: "Nos politiques sont disponibles sur chaque application.",
+      sub: "Nos politiques sont disponibles sur chaque plateforme.",
       items: [
         { label: "Politique de confidentialité", url: "https://jeuxdedames.africa/legal/privacy" },
         { label: "Conditions d'utilisation", url: "https://jeuxdedames.africa/legal/terms" },
@@ -108,17 +108,17 @@ const t = {
       title: "Nous contacter",
       sub: "Pour toute question professionnelle, partenariat ou demande presse.",
       general: "Demandes générales",
-      apps_contact: "Support applications",
+      apps_contact: "Support plateformes",
     },
     footer: "Tous droits réservés",
   },
   en: {
-    nav: { about: "About", apps: "Our Apps", contact: "Contact" },
+    nav: { about: "About", apps: "Our Platforms", contact: "Contact" },
     hero: {
       badge: "Salela Bongo LLC — \"Use Your Brain\"",
       headline: "Africa Thinks. Africa Creates. Africa Builds.",
-      sub: "\"Salela Bongo\" means \"Use Your Brain\" in Lingala. Just as gyms forge the body, we believe the brain must be trained. We build apps by Africans, for Africans — in Africa's languages, with Africa's heart.",
-      cta: "Explore our apps",
+      sub: "\"Salela Bongo\" means \"Use Your Brain\" in Lingala. Just as gyms forge the body, we believe the brain must be trained. We build digital platforms by Africans, for Africans — in Africa's languages, with Africa's heart.",
+      cta: "Explore our platforms",
       ctaSub: "Get in touch",
     },
     mission: {
@@ -126,14 +126,14 @@ const t = {
       quote: "The world has gyms for the body — we are building gyms for the African mind.",
       paragraphs: [
         "Salela Bongo LLC was born from a simple yet powerful conviction: African intelligence deserves tools built to match. Our name, \"Salela Bongo\", is a rallying cry in Lingala — \"Use Your Brain\" — a call to every African and every member of the diaspora who refuses to be a spectator in the digital revolution.",
-        "We don't just build apps. We forge spaces where the African mind can exercise, learn, play, and build businesses — in French, English, and Lingala. Like Masakhane (\"We build together\"), we believe Africa's technological future will be shaped by those who understand its context, speak its languages, and carry its culture in their code.",
+        "We are more than just software builders. We forge spaces where the African mind can exercise, learn, play, and build businesses — in French, English, and Lingala. Like Masakhane (\"We build together\"), we believe Africa's technological future will be shaped by those who understand its context, speak its languages, and carry its culture in their code.",
         "Sports nourish the body. We nourish the mind. Every checkers game played, every course completed, every shop created on our platforms is an intellectual workout — one more step toward an Africa that thinks, innovates, and leads in the digital age.",
         "Today, as the world focuses heavily on training big AI models and Large Language Models (LLMs), we believe in training the younger African mind first. Africa has the youngest population in the world, with a median age of approximately 19 years old. By 2050, the continent will be the primary driver of global population growth, meaning the future of the world is inherently tied to the intellectual development of African youth. (<a href=\"https://population.un.org/wpp/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #60a5fa; text-decoration: underline;\">Ref: United Nations World Population Prospects</a>)",
       ],
     },
     about: {
       title: "Who We Are",
-      desc1: "Salela Bongo LLC is a US-registered technology company founded by passionate Africans who understand the continent's realities, languages, and aspirations. We design mobile apps and digital platforms for Africa and its diaspora.",
+      desc1: "Salela Bongo LLC is a US-registered technology company founded by passionate Africans who understand the continent's realities, languages, and aspirations. We design digital solutions and platforms for Africa and its diaspora.",
       desc2: "We are not a company looking at Africa from afar — we are Africa. We speak its languages, we live its context, and we code its solutions. Every product we build is culturally rooted, multilingual, and designed for African realities.",
       items: [
         { icon: "🧠", label: "Philosophy", value: "Salela Bongo — Use Your Brain" },
@@ -144,7 +144,7 @@ const t = {
       ],
     },
     apps: {
-      title: "Our Applications",
+      title: "Our Platforms",
       sub: "Three products — one commitment to excellence.",
       list: [
         {
@@ -201,7 +201,7 @@ const t = {
     },
     legal: {
       title: "Compliance & Legal",
-      sub: "Our policies are available on each application.",
+      sub: "Our policies are available on each platform.",
       items: [
         { label: "Privacy Policy", url: "https://jeuxdedames.africa/legal/privacy" },
         { label: "Terms of Service", url: "https://jeuxdedames.africa/legal/terms" },
@@ -213,17 +213,17 @@ const t = {
       title: "Contact Us",
       sub: "For professional inquiries, partnerships, or press requests.",
       general: "General inquiries",
-      apps_contact: "App support",
+      apps_contact: "Platform support",
     },
     footer: "All rights reserved",
   },
   ln: {
-    nav: { about: "Ntina", apps: "Mipango na Biso", contact: "Toyebana" },
+    nav: { about: "Ntina", apps: "Plateformes na Biso", contact: "Toyebana" },
     hero: {
       badge: "Salela Bongo LLC — « Salelá Bongo na yo »",
       headline: "Afrika ekanisi. Afrika esali. Afrika etongi.",
-      sub: "\"Salela Bongo\" elakisi \"Salelá bongo na yo\" na Lingala. Ndenge ba salle ya sport elendisaka nzoto, biso tondimi ete bongo esengeli kolendisama. Tosalaka mipango na ba Africains, mpo na ba Africains — na minoko ya Afrika, na motema ya Afrika.",
-      cta: "Tala mipango na biso",
+      sub: "\"Salela Bongo\" elakisi \"Salelá bongo na yo\" na Lingala. Ndenge ba salle ya sport elendisaka nzoto, biso tondimi ete bongo esengeli kolendisama. Totongaka ba plateformes numériques na ba Africains, mpo na ba Africains — na minoko ya Afrika, na motema ya Afrika.",
+      cta: "Tala plateformes na biso",
       ctaSub: "Toyebana",
     },
     mission: {
@@ -231,14 +231,14 @@ const t = {
       quote: "Mokili ezali na ba salle ya sport mpo na nzoto — biso tozali kotonga ba gymnase mpo na makanisi ya Afrika.",
       paragraphs: [
         "Salela Bongo LLC ebotamaki na kondima moko ya nguya: bwanya ya Afrika esengeli na bisaleli oyo etongamaki mpo na yango. Nkombo na biso, \"Salela Bongo\", ezali loyembo ya libundeli na Lingala — \"Salelá bongo na yo\" — ebeleli mpo na moto nyonso ya Afrika mpe ya diaspora oyo aboyi kozala kaka motaleli na révolution ya numérique.",
-        "Tosalaka kaka mipango te. Totongaka bisika epai makanisi ya Afrika ekoki komimesa, koyekola, kosakana mpe kotonga mombongo — na Français, Anglais mpe Lingala. Lokola Masakhane (\"Totonga nzela moko\"), tondimi ete mikolo ya lobi ya teknolojia ya Afrika ekosalemama na baoyo bayebi contexte na yango, balobaka minoko na yango mpe bamemaka culture na yango na code na bango.",
+        "Totongaka kaka ba logiciels te. Totongaka bisika epai makanisi ya Afrika ekoki komimesa, koyekola, kosakana mpe kotonga mombongo — na Français, Anglais mpe Lingala. Lokola Masakhane (\"Totonga nzela moko\"), tondimi ete mikolo ya lobi ya teknolojia ya Afrika ekosalemama na baoyo bayebi contexte na yango, balobaka minoko na yango mpe bamemaka culture na yango na code na bango.",
         "Sport eleisaka nzoto. Biso toleisaka makanisi. Masano nionso ya dames oyo esakanami, cours nionso oyo elandamaki, boutique nionso oyo esalemaki na plateformes na biso ezali exercice ya bwanya — etape mosusu mpo na Afrika oyo ekanisaka, esalaka mpe etambwisaka na numérique.",
         "Lelo oyo, ntango mokili mobimba ezali kotia likebi na kolendisa ba modèles ya minene ya Intelligence Artificielle (IA) mpe ba modèles linguistiques (LLM), biso tondimi ete esengeli naino kolendisa bongo ya bilenge ya Afrika. Afrika ezali na population oyo eleki bilenge na mokili mobimba, na âge médian ya mibu 19. Tii na mobu 2050, continent ekokóma moteur ya liboso ya bokoli ya population na mokili, yango elakisi ete mikolo ezali koya ya mokili ekangami na bokoli ya mayele ya bilenge ya Afrika. (<a href=\"https://population.un.org/wpp/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #60a5fa; text-decoration: underline;\">Réf : Perspectives ya Population ya Mokili ya Nations Unies</a>)",
       ],
     },
     about: {
       title: "Biso tozali banani",
-      desc1: "Salela Bongo LLC ezali société ya teknolojia eregistrée na États-Unis, etongamaki na ba Africains ya motema oyo bayebi réalités, minoko mpe biloto ya continan. Tosalaka mipango ya telefoni mpe plateformes ya numerique mpo na Afrika mpe diaspora na yango.",
+      desc1: "Salela Bongo LLC ezali société ya teknolojia eregistrée na États-Unis, etongamaki na ba Africains ya motema oyo bayebi réalités, minoko mpe biloto ya continan. Tosalaka ba solutions mpe plateformes ya numérique mpo na Afrika mpe diaspora na yango.",
       desc2: "Tozali société oyo etalaka Afrika ya mosika te — tozali Afrika yango moko. Tolobaka minoko na yango, tovandaka na contexte na yango, mpe tosalaka ba solutions na yango. Eloko nionso oyo totongaka ezali ya culture ya Afrika, multilingue mpe esalama mpo na réalités ya Afrika.",
       items: [
         { icon: "🧠", label: "Philosophie", value: "Salela Bongo — Salelá bongo na yo" },
@@ -249,7 +249,7 @@ const t = {
       ],
     },
     apps: {
-      title: "Mipango na Biso",
+      title: "Plateformes na Biso",
       sub: "Biloko misato — commitment moko ya malamu.",
       list: [
         {
@@ -306,7 +306,7 @@ const t = {
     },
     legal: {
       title: "Conformité & Légal",
-      sub: "Ba politique na biso ezali na mipango nionso.",
+      sub: "Ba politique na biso ezali na plateformes nionso.",
       items: [
         { label: "Politique ya Confidentialité", url: "https://jeuxdedames.africa/legal/privacy" },
         { label: "Conditions ya Kosalela", url: "https://jeuxdedames.africa/legal/terms" },
@@ -318,7 +318,7 @@ const t = {
       title: "Toyebana",
       sub: "Mpo na mituna ya professionnel, partenariat to presse.",
       general: "Mituna ya général",
-      apps_contact: "Support mipango",
+      apps_contact: "Support plateformes",
     },
     footer: "Makoki nionso ebatelami",
   },
@@ -373,7 +373,7 @@ export default function Home() {
           <a href="#contact" className={styles.btnGhost}>{txt.hero.ctaSub}</a>
         </div>
         <div className={styles.heroStats}>
-          <div className={styles.stat}><span className={styles.statNum}>3</span><span className={styles.statLabel}>Applications</span></div>
+          <div className={styles.stat}><span className={styles.statNum}>3</span><span className={styles.statLabel}>Plateformes</span></div>
           <div className={styles.statDivider} />
           <div className={styles.stat}><span className={styles.statNum}>3</span><span className={styles.statLabel}>Langues</span></div>
           <div className={styles.statDivider} />

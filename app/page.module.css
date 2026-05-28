@@ -777,6 +777,7 @@
 ──────────────────────────────────────────── */
 @media (max-width: 768px) {
   .navLinks { display: none; }
+  .navRight .socialLinks { display: none; }
   .nav { padding: 1rem 1.25rem; }
   .hero { padding: 7rem 1.25rem 3rem; }
   .heroStats {
