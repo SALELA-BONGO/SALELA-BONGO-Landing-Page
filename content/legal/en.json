@@ -1,0 +1,331 @@
+{
+  "common": {
+    "backToHome": "Back to Home",
+    "backToLegal": "All Legal Documents",
+    "legalIndexTitle": "Legal Information",
+    "legalIndexSub": "Corporate policies for all Salela Bongo LLC platforms.",
+    "companyFooter": "Salela Bongo LLC — salelabongo.org"
+  },
+  "index": {
+    "cards": [
+      {
+        "href": "/legal/privacy",
+        "label": "Privacy Policy",
+        "description": "How we collect, use, and protect your data across our platforms."
+      },
+      {
+        "href": "/legal/terms",
+        "label": "Terms of Service",
+        "description": "Rules and conditions for using Salela Bongo LLC services."
+      },
+      {
+        "href": "/legal/community-guidelines",
+        "label": "Community Guidelines",
+        "description": "Standards for respectful interaction across our communities."
+      },
+      {
+        "href": "/legal/data-deletion",
+        "label": "Data Deletion",
+        "description": "How to request deletion of your account and personal data."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: June 2026",
+    "intro": "This Privacy Policy describes how Salela Bongo LLC (\"Company\", \"we\", \"us\") collects, uses, and protects personal information when you use our platforms, including Jeux de Dames (jeuxdedames.africa), DarAkili (darakili.com), and Yebela Store (yebela.store).",
+    "sections": [
+      {
+        "number": "1.",
+        "title": "Information We Collect",
+        "body": "Depending on which platform you use, we may collect:",
+        "list": [
+          "Account information: email address, username, name, language preference, and optional profile details (e.g. country, town, profile picture on DarAkili).",
+          "Usage data: courses accessed, lessons completed, code submissions, game statistics, shop activity, login timestamps, and session data.",
+          "Communication data: in-game chat messages on Jeux de Dames and support correspondence.",
+          "Payment records: transaction amounts, dates, and status. Payment card details are processed by Stripe; mobile money payments are processed by PawaPay. We do not store full payment card numbers on our servers."
+        ]
+      },
+      {
+        "number": "2.",
+        "title": "How We Use Your Information",
+        "list": [
+          "Provide and operate our services: authentication, gameplay, course access, code execution, progress tracking, and shop management.",
+          "Display leaderboards and rankings where you opt in (DarAkili, Jeux de Dames).",
+          "Process purchases, sponsorships, and premium subscriptions.",
+          "Send account-related communications: verification, password reset, purchase confirmations, and optional progress updates.",
+          "Improve our platforms through aggregated, anonymized usage analysis."
+        ]
+      },
+      {
+        "number": "3.",
+        "title": "Information Sharing",
+        "body": "We do not sell your personal information. We share data only with:",
+        "list": [
+          "Payment processors: Stripe and PawaPay for payment processing.",
+          "Infrastructure providers: AWS (Amazon Web Services) for authentication, storage, and hosting.",
+          "Course sponsors: when someone sponsors your DarAkili course access, they may see your name and course progress.",
+          "Course creators: aggregate analytics only (completion rates, scores), not individual student data.",
+          "Analytics: Vercel Analytics and Vercel Speed Insights — cookieless tools that do not collect personal data."
+        ]
+      },
+      {
+        "number": "4.",
+        "title": "Data Storage & Security",
+        "body": "Your data is stored in encrypted databases with encryption at rest. Passwords are hashed and never stored in plain text. All API communications use TLS/SSL encryption. Code submissions on DarAkili are executed in secure, limited-permission environments."
+      },
+      {
+        "number": "5.",
+        "title": "Your Rights",
+        "body": "You have the right to access, correct, export, and delete your personal data. Deletion methods vary by platform — see our Data Deletion page. For other privacy requests, contact contact@salelabongo.org or the platform-specific email listed on that page."
+      },
+      {
+        "number": "6.",
+        "title": "Cookies & Local Storage",
+        "body": "We do not use third-party tracking cookies. We use browser local storage for authentication tokens, language preferences, and editor state. No personal data is shared with third parties for advertising purposes."
+      },
+      {
+        "number": "7.",
+        "title": "Data Retention",
+        "body": "We retain personal data while your account is active. When you delete your account, personal data is permanently removed within 30 days. Anonymous aggregated statistics may be retained for service improvement. Financial transaction records may be retained for legal compliance but will be anonymised."
+      },
+      {
+        "number": "8.",
+        "title": "Children's Privacy",
+        "body": "Our platforms are not directed to children under 13. We do not knowingly collect personal information from children under 13. If we learn that a child under 13 has created an account, we will delete it immediately. Parents or guardians may contact contact@salelabongo.org."
+      },
+      {
+        "number": "9.",
+        "title": "International Users",
+        "body": "Salela Bongo LLC is operated from the United States. By using our services, you consent to the transfer of your data to the United States."
+      },
+      {
+        "number": "10.",
+        "title": "Changes to This Policy",
+        "body": "We may update this policy from time to time. Changes will be posted on this page. Registered users will be notified of significant changes via email. Continued use after modification constitutes acceptance."
+      },
+      {
+        "number": "11.",
+        "title": "Contact",
+        "body": "For privacy-related inquiries: contact@salelabongo.org. Platform-specific support: jeuxdedames@salelabongo.org (Jeux de Dames), darakili@salelabongo.com (DarAkili), contact@yebela.store (Yebela Store). We respond within 48 business hours."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: June 2026",
+    "intro": "These Terms of Service govern your use of all platforms operated by Salela Bongo LLC, including Jeux de Dames, DarAkili, and Yebela Store. By accessing any of our services, you agree to these terms.",
+    "sections": [
+      {
+        "number": "1.",
+        "title": "Acceptance of Terms",
+        "body": "By accessing or using any Salela Bongo LLC platform, you agree to be bound by these Terms of Service. If you do not agree, do not use our services."
+      },
+      {
+        "number": "2.",
+        "title": "Eligibility",
+        "body": "You must be at least 13 years old to use our platforms. If you are between 13 and 18, you must have permission from a parent or legal guardian."
+      },
+      {
+        "number": "3.",
+        "title": "User Accounts",
+        "body": "You must provide accurate information when creating an account. You are responsible for maintaining the confidentiality of your credentials and for all activity under your account. One account per person is allowed unless otherwise stated."
+      },
+      {
+        "number": "4.",
+        "title": "Jeux de Dames",
+        "subsections": [
+          {
+            "title": "Game Rules",
+            "body": "Games are played according to international draughts (10×10), Congolese (DRC), or American rules, depending on the variant chosen. Cheating, assistance software, or result manipulation is strictly prohibited."
+          },
+          {
+            "title": "In-Game Chat",
+            "body": "The in-game chat is for friendly communication. Hate speech, harassment, threats, spam, and sexually explicit content are prohibited. Users may report messages and block other users."
+          },
+          {
+            "title": "Premium Subscription",
+            "body": "Premium features are subject to the subscription terms presented at purchase. Subscription management is available through your account settings."
+          }
+        ]
+      },
+      {
+        "number": "5.",
+        "title": "DarAkili",
+        "subsections": [
+          {
+            "title": "Course Content & Intellectual Property",
+            "body": "Courses are created by community members who retain ownership of their original content. By submitting a course, creators grant DarAkili a perpetual, irrevocable, non-exclusive, worldwide license to host, display, and distribute the course, including after account deletion for courses with enrolled learners. Users may not copy, redistribute, or resell course content without the creator's permission."
+          },
+          {
+            "title": "Payments & Purchases",
+            "body": "Some courses require a one-time payment for lifetime access via Stripe (cards) or PawaPay (mobile money). List prices are shown in USD. Mobile money amounts are converted using market exchange rates at payment session creation. All course purchases are final once access is granted."
+          },
+          {
+            "title": "Code Execution & Safety",
+            "body": "Code submitted for grading runs in a secure environment. You agree not to submit malicious code or attempt to exploit the execution environment."
+          },
+          {
+            "title": "Creator Revenue Terms",
+            "body": "When submitting a paid course, creators select a revenue share between 0% and 50% (default 25% to creator, 75% to platform) of each net purchase after payment processor fees. This agreement is binding for the commercial life of that course. Payouts are processed monthly where Stripe Connect or an agreed method is available, subject to minimum thresholds. Creators are responsible for taxes in their jurisdiction."
+          }
+        ]
+      },
+      {
+        "number": "6.",
+        "title": "Yebela Store",
+        "body": "Yebela Store provides online catalog and shop management for entrepreneurs. Shop owners are responsible for the accuracy of their listings, compliance with applicable commerce laws, and respectful communication with customers. Salela Bongo LLC provides the platform infrastructure but is not a party to transactions between shop owners and buyers."
+      },
+      {
+        "number": "7.",
+        "title": "Code of Conduct",
+        "body": "Users must behave respectfully across all platforms. Insults, harassment, discriminatory language, plagiarism, cheating on assessments, and manipulation of leaderboards are prohibited. We reserve the right to suspend or ban accounts that violate these standards."
+      },
+      {
+        "number": "8.",
+        "title": "Intellectual Property",
+        "body": "Platform code, design, text, and graphics are the property of Salela Bongo LLC unless otherwise stated. Course and shop content remains the property of its respective creators and owners."
+      },
+      {
+        "number": "9.",
+        "title": "Account Deletion & Termination",
+        "body": "You may delete your account at any time through platform settings or by contacting us (see Data Deletion page). We may suspend or terminate accounts for violations of these terms."
+      },
+      {
+        "number": "10.",
+        "title": "Disclaimer",
+        "body": "Our platforms are provided \"as is\" without warranties of any kind. Salela Bongo LLC shall not be liable for indirect, incidental, or consequential damages arising from your use of our services."
+      },
+      {
+        "number": "11.",
+        "title": "Changes to Terms",
+        "body": "We may update these terms from time to time. Registered users will be notified of significant changes via email. Continued use constitutes acceptance of updated terms."
+      },
+      {
+        "number": "12.",
+        "title": "Governing Law & Contact",
+        "body": "These terms are governed by the laws of the United States. For questions, contact contact@salelabongo.org. Company: Salela Bongo LLC."
+      }
+    ]
+  },
+  "communityGuidelines": {
+    "title": "Community Guidelines",
+    "lastUpdated": "Last updated: June 2026",
+    "intro": "Salela Bongo LLC builds communities where Africans learn, play, and build. These guidelines apply across Jeux de Dames, DarAkili, and Yebela Store.",
+    "sections": [
+      {
+        "number": "1.",
+        "title": "Respect & Sportsmanship",
+        "body": "Treat all users with respect regardless of skill level, language, or background. Be gracious in victory and defeat. Congratulate opponents and collaborators on a job well done."
+      },
+      {
+        "number": "2.",
+        "title": "Communication Rules",
+        "list": [
+          "No hate speech, discrimination, or slurs of any kind.",
+          "No harassment, bullying, or threats toward other users.",
+          "No sexually explicit or violent content.",
+          "No spam, advertising, or excessive repetitive messages.",
+          "Do not share personal information (yours or others')."
+        ]
+      },
+      {
+        "number": "3.",
+        "title": "Fair Play",
+        "body": "Play and learn honestly. Do not use bots, external assistance tools, or cheat on assessments. Do not intentionally disconnect to avoid a loss. Do not manipulate game results or leaderboards through collusion or other unfair means."
+      },
+      {
+        "number": "4.",
+        "title": "Content Standards (DarAkili & Yebela)",
+        "list": [
+          "Do not submit plagiarized or copyrighted content without permission.",
+          "Provide accurate product descriptions and course information.",
+          "Report bugs, vulnerabilities, or inappropriate content to our team."
+        ]
+      },
+      {
+        "number": "5.",
+        "title": "Reporting & Blocking",
+        "body": "Report inappropriate behavior using in-app report tools where available, or email the relevant platform support address. On Jeux de Dames, you can block users from chat. All reports are reviewed by our team."
+      },
+      {
+        "number": "6.",
+        "title": "Consequences of Violations",
+        "list": [
+          "First offense: Warning from moderators.",
+          "Second offense: Temporary suspension (24–72 hours).",
+          "Third offense: Extended suspension (1–4 weeks).",
+          "Severe or repeated violations: Permanent account ban."
+        ]
+      },
+      {
+        "number": "7.",
+        "title": "Age Requirement",
+        "body": "You must be at least 13 years old. Users between 13 and 18 must have parental or guardian permission. We do not knowingly allow children under 13 to create accounts."
+      },
+      {
+        "number": "8.",
+        "title": "Contact",
+        "body": "Questions about these guidelines? Contact contact@salelabongo.org or the platform-specific support email for the service you use."
+      }
+    ]
+  },
+  "dataDeletion": {
+    "title": "Data Deletion",
+    "lastUpdated": "Last updated: June 2026",
+    "intro": "You have the right to request deletion of your account and all associated personal data. We are committed to processing your request promptly.",
+    "sections": [
+      {
+        "number": "1.",
+        "title": "Your Right to Delete",
+        "body": "Under our Privacy Policy, you may permanently delete your account and personal data at any time. Deletion is processed within 30 days. You will receive a confirmation email once complete."
+      },
+      {
+        "number": "2.",
+        "title": "Jeux de Dames",
+        "list": [
+          "Sign in and go to Account Settings → Danger Zone → Delete My Account.",
+          "Or email jeuxdedames@salelabongo.org with your registered email and username."
+        ]
+      },
+      {
+        "number": "3.",
+        "title": "DarAkili",
+        "list": [
+          "Sign in and delete your account from Profile Settings.",
+          "Export your data in JSON format from Profile Settings before deletion if desired.",
+          "Or email darakili@salelabongo.com with your registered email address."
+        ]
+      },
+      {
+        "number": "4.",
+        "title": "Yebela Store",
+        "list": [
+          "Contact contact@yebela.store with your shop account email and request account deletion."
+        ]
+      },
+      {
+        "number": "5.",
+        "title": "What Data Is Deleted",
+        "list": [
+          "Email address and authentication credentials",
+          "Username and profile information",
+          "Game history, course progress, and shop data",
+          "Chat messages and communication history",
+          "Language and display preferences"
+        ]
+      },
+      {
+        "number": "6.",
+        "title": "Data Retention After Deletion",
+        "body": "Personal data is permanently removed within 30 days. Anonymous aggregated statistics not linked to your identity may be retained. Financial transaction records may be retained for legal compliance but will be anonymised. On DarAkili, published courses with enrolled learners may remain on the platform after creator account deletion (see Terms of Service)."
+      },
+      {
+        "number": "7.",
+        "title": "General Inquiries",
+        "body": "For questions about data deletion across any platform: contact@salelabongo.org"
+      }
+    ],
+    "footerNote": "See also our Privacy Policy for full details on your data rights."
+  }
+}

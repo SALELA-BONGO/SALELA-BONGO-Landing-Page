@@ -1,7 +1,8 @@
 "use client";
 
-import { useState } from "react";
 import Image from "next/image";
+import { storeLanguage } from "@/lib/legal";
+import { useLegalLanguage } from "@/lib/useLegalLanguage";
 import styles from "./page.module.css";
 
 type Language = "fr" | "en" | "ln";
@@ -96,12 +97,12 @@ const t = {
     },
     legal: {
       title: "Conformité & Légal",
-      sub: "Nos politiques sont disponibles sur chaque plateforme.",
+      sub: "Politiques d'entreprise pour toutes les plateformes Salela Bongo LLC.",
       items: [
-        { label: "Politique de confidentialité", url: "https://jeuxdedames.africa/legal/privacy" },
-        { label: "Conditions d'utilisation", url: "https://jeuxdedames.africa/legal/terms" },
-        { label: "Charte communautaire", url: "https://jeuxdedames.africa/legal/community-guidelines" },
-        { label: "Suppression des données", url: "https://jeuxdedames.africa/legal/data-deletion" },
+        { label: "Politique de confidentialité", url: "/legal/privacy" },
+        { label: "Conditions d'utilisation", url: "/legal/terms" },
+        { label: "Charte communautaire", url: "/legal/community-guidelines" },
+        { label: "Suppression des données", url: "/legal/data-deletion" },
       ],
     },
     contact: {
@@ -201,12 +202,12 @@ const t = {
     },
     legal: {
       title: "Compliance & Legal",
-      sub: "Our policies are available on each platform.",
+      sub: "Corporate policies for all Salela Bongo LLC platforms.",
       items: [
-        { label: "Privacy Policy", url: "https://jeuxdedames.africa/legal/privacy" },
-        { label: "Terms of Service", url: "https://jeuxdedames.africa/legal/terms" },
-        { label: "Community Guidelines", url: "https://jeuxdedames.africa/legal/community-guidelines" },
-        { label: "Data Deletion", url: "https://jeuxdedames.africa/legal/data-deletion" },
+        { label: "Privacy Policy", url: "/legal/privacy" },
+        { label: "Terms of Service", url: "/legal/terms" },
+        { label: "Community Guidelines", url: "/legal/community-guidelines" },
+        { label: "Data Deletion", url: "/legal/data-deletion" },
       ],
     },
     contact: {
@@ -306,12 +307,12 @@ const t = {
     },
     legal: {
       title: "Conformité & Légal",
-      sub: "Ba politique na biso ezali na plateformes nionso.",
+      sub: "Ba politique ya entreprise mpo na ba plateformes nionso ya Salela Bongo LLC.",
       items: [
-        { label: "Politique ya Confidentialité", url: "https://jeuxdedames.africa/legal/privacy" },
-        { label: "Conditions ya Kosalela", url: "https://jeuxdedames.africa/legal/terms" },
-        { label: "Règles ya Communauté", url: "https://jeuxdedames.africa/legal/community-guidelines" },
-        { label: "Suppression ya Data", url: "https://jeuxdedames.africa/legal/data-deletion" },
+        { label: "Politique ya Confidentialité", url: "/legal/privacy" },
+        { label: "Conditions ya Kosalela", url: "/legal/terms" },
+        { label: "Règles ya Communauté", url: "/legal/community-guidelines" },
+        { label: "Suppression ya Data", url: "/legal/data-deletion" },
       ],
     },
     contact: {
@@ -325,9 +326,13 @@ const t = {
 };
 
 export default function Home() {
-  const [lang, setLang] = useState<Language>("fr");
+  const lang = useLegalLanguage() as Language;
   const txt = t[lang];
   const year = new Date().getFullYear();
+
+  const handleLangChange = (l: Language) => {
+    storeLanguage(l);
+  };
 
   return (
     <div className={styles.page}>
@@ -353,7 +358,7 @@ export default function Home() {
             {(["fr", "en", "ln"] as Language[]).map((l) => (
               <button
                 key={l}
-                onClick={() => setLang(l)}
+                onClick={() => handleLangChange(l)}
                 className={`${styles.langBtn} ${lang === l ? styles.langActive : ""}`}
               >
                 {l.toUpperCase()}
@@ -511,10 +516,10 @@ export default function Home() {
           <p className={styles.sectionSub}>{txt.legal.sub}</p>
           <div className={styles.legalGrid}>
             {txt.legal.items.map((item) => (
-              <a key={item.label} href={item.url} target="_blank" rel="noopener noreferrer" className={styles.legalCard}>
+              <a key={item.label} href={item.url} className={styles.legalCard}>
                 <span className={styles.legalIcon}>📄</span>
                 <span>{item.label}</span>
-                <span className={styles.legalArrow}>↗</span>
+                <span className={styles.legalArrow}>→</span>
               </a>
             ))}
           </div>
@@ -567,8 +572,10 @@ export default function Home() {
             &copy; {year} Salela Bongo LLC — {txt.footer}
           </p>
           <div className={styles.footerLinks}>
-            <a href="https://jeuxdedames.africa/legal/privacy" target="_blank" rel="noopener noreferrer">Privacy</a>
-            <a href="https://jeuxdedames.africa/legal/terms" target="_blank" rel="noopener noreferrer">Terms</a>
+            <a href="/legal/privacy">Privacy</a>
+            <a href="/legal/terms">Terms</a>
+            <a href="/legal/community-guidelines">Guidelines</a>
+            <a href="/legal/data-deletion">Data Deletion</a>
             <a href="mailto:contact@salelabongo.org">Contact</a>
           </div>
           <SocialLinks />

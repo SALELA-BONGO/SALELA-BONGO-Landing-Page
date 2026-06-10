@@ -1,0 +1,331 @@
+{
+  "common": {
+    "backToHome": "Zonga na ebandeli",
+    "backToLegal": "Ba documents nionso ya mibeko",
+    "legalIndexTitle": "Ba informations ya mibeko",
+    "legalIndexSub": "Ba politique ya entreprise mpo na ba plateformes nionso ya Salela Bongo LLC.",
+    "companyFooter": "Salela Bongo LLC — salelabongo.org"
+  },
+  "index": {
+    "cards": [
+      {
+        "href": "/legal/privacy",
+        "label": "Politique ya Confidentialité",
+        "description": "Ndenge tozali kokanga, kosalela mpe kobatela ba données na yo na ba plateformes na biso."
+      },
+      {
+        "href": "/legal/terms",
+        "label": "Conditions ya Kosalela",
+        "description": "Ba règles mpe ba conditions mpo na kosalela ba services ya Salela Bongo LLC."
+      },
+      {
+        "href": "/legal/community-guidelines",
+        "label": "Règles ya Communauté",
+        "description": "Ba normes ya bokumu mpo na kosangana na communauté na biso."
+      },
+      {
+        "href": "/legal/data-deletion",
+        "label": "Suppression ya Data",
+        "description": "Ndenge ya kosenga koboma compte na yo mpe ba données personnelles."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Politique ya Confidentialité",
+    "lastUpdated": "Mise à jour ya nsuka : juin 2026",
+    "intro": "Politique oyo elobaka ndenge Salela Bongo LLC (« Société », « biso ») ezali kokanga, kosalela mpe kobatela ba informations personnelles ntango ozali kosalela ba plateformes na biso, kati na Jeux de Dames (jeuxdedames.africa), DarAkili (darakili.com) mpe Yebela Store (yebela.store).",
+    "sections": [
+      {
+        "number": "1.",
+        "title": "Ba informations tozali kokanga",
+        "body": "Selon plateforme oyo osaleli, tokoki kokanga :",
+        "list": [
+          "Ba informations ya compte : adresse email, nom d'utilisateur, kombo, préférence ya langue mpe ba détails ya profil (mboka, engumba, photo ya profil na DarAkili).",
+          "Ba données ya utilisation : ba cours oyo omoni, ba leçons oyo osilisi, ba soumissions ya code, ba statistiques ya jeu, activité ya boutique, ba timestamps ya connexion.",
+          "Ba données ya communication : ba messages ya chat na Jeux de Dames mpe correspondance na support.",
+          "Ba enregistrements ya paiement : motuya, mokolo mpe statut. Ba cartes bancaires esalelami na Stripe ; mobile money na PawaPay. Tozali kobomba te ba numéros complets ya carte."
+        ]
+      },
+      {
+        "number": "2.",
+        "title": "Ndenge tozali kosalela ba informations na yo",
+        "list": [
+          "Kopesa mpe kosalela ba services : authentification, jeu, accès ya cours, exécution ya code, suivi ya progression mpe gestion ya boutique.",
+          "Kolakisa ba classements soki ondimi (DarAkili, Jeux de Dames).",
+          "Kotraiter ba achats, parrainages mpe abonnements premium.",
+          "Kotinda ba communications ya compte : vérification, reset ya mot de passe, confirmations ya achat.",
+          "Kobongisa ba plateformes na biso na analyse ya usage anonymisée."
+        ]
+      },
+      {
+        "number": "3.",
+        "title": "Kokabola ba informations",
+        "body": "Tozali koteka te ba données personnelles na yo. Tokabola kaka na :",
+        "list": [
+          "Ba processeurs ya paiement : Stripe mpe PawaPay.",
+          "Ba prestataires ya infrastructure : AWS mpo na authentification, stockage mpe hébergement.",
+          "Ba parrains ya cours : soki moto aparraine accès na yo na DarAkili, akoki komona kombo na yo mpe progression.",
+          "Ba créateurs ya cours : ba statistiques agrégées kaka, ata moko te ya données individuelles.",
+          "Analytics : Vercel Analytics mpe Vercel Speed Insights — ba outils sans cookies."
+        ]
+      },
+      {
+        "number": "4.",
+        "title": "Stockage mpe sécurité ya ba données",
+        "body": "Ba données na yo ebombami na ba bases chiffrées. Ba mots de passe ezali hashed mpe jamais stockés en clair. Ba communications API esalelaka TLS/SSL. Code na DarAkili esalelami na environnement sécurisé."
+      },
+      {
+        "number": "5.",
+        "title": "Makoki na yo",
+        "body": "Ozali na droit ya komona, kobongisa, koexporter mpe koboma ba données personnelles na yo. Ba méthodes ya suppression ekeseni selon plateforme — talá page Suppression ya Data. Mpo na ba demandes mosusu : contact@salelabongo.org."
+      },
+      {
+        "number": "6.",
+        "title": "Cookies mpe stockage local",
+        "body": "Tozali kosalela te ba cookies ya suivi tiers. Tosalelaka stockage local mpo na ba tokens ya authentification, préférences ya langue mpe état ya éditeur. Ata moko te ya données personnelles ekabwami mpo na publicité."
+      },
+      {
+        "number": "7.",
+        "title": "Conservation ya ba données",
+        "body": "Tozali kobomba ba données personnelles ntango compte na yo ezali actif. Na suppression, ba données personnelles ebomami na kati ya mikolo 30. Ba statistiques anonymes ekoki kobatelama. Ba enregistrements financiers ekoki kobatelama mpo na conformité légale."
+      },
+      {
+        "number": "8.",
+        "title": "Bana ya moke",
+        "body": "Ba plateformes na biso ezali te mpo na bana ya nsé ya mbula 13. Soki tokoyeba ete mwana ya nsé ya 13 azui compte, tokoboma yango mbala moko. Ba parents ekoki kotinda email na contact@salelabongo.org."
+      },
+      {
+        "number": "9.",
+        "title": "Ba utilisateurs ya mokili mobimba",
+        "body": "Salela Bongo LLC esalelami na États-Unis. Na kosalela ba services na biso, ondimi transfert ya ba données na yo na États-Unis."
+      },
+      {
+        "number": "10.",
+        "title": "Ba modifications ya politique",
+        "body": "Tokoki kobongisa politique oyo na ntango nyonso. Ba changements ekobimisama na page oyo. Ba utilisateurs enregistrés bakoyebisama na email mpo na ba changements ya ntina."
+      },
+      {
+        "number": "11.",
+        "title": "Contact",
+        "body": "Mpo na mituna ya confidentialité : contact@salelabongo.org. Support par plateforme : jeuxdedames@salelabongo.org (Jeux de Dames), darakili@salelabongo.com (DarAkili), contact@yebela.store (Yebela Store). Biso peyaka na kati ya ngonga 48 ya mosala."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Conditions ya Kosalela",
+    "lastUpdated": "Mise à jour ya nsuka : juin 2026",
+    "intro": "Ba conditions oyo ezali kotambwisa utilisation ya ba plateformes nionso ya Salela Bongo LLC, kati na Jeux de Dames, DarAkili mpe Yebela Store. Na kokota na ba services na biso, ondimi ba conditions oyo.",
+    "sections": [
+      {
+        "number": "1.",
+        "title": "Kondima ba conditions",
+        "body": "Na kokota to kosalela plateforme moko ya Salela Bongo LLC, ondimi kozala lié na ba conditions oyo. Soki ondimi te, kosalela te ba services na biso."
+      },
+      {
+        "number": "2.",
+        "title": "Éligibilité",
+        "body": "Esengeli ozala na mbula 13 to koleka. Soki ozali kati ya 13 mpe 18, esengeli ozala na ndingisa ya moboti to tuteur légal."
+      },
+      {
+        "number": "3.",
+        "title": "Ba comptes utilisateurs",
+        "body": "Esengeli opesa ba informations ya solo na kokela compte. Ozali responsable ya sécurité ya ba identifiants na yo mpe activité nionso na compte na yo. Compte moko kaka na moto moko."
+      },
+      {
+        "number": "4.",
+        "title": "Jeux de Dames",
+        "subsections": [
+          {
+            "title": "Ba règles ya jeu",
+            "body": "Ba parties esalelami selon ba règles ya dames international (10×10), congolaises (RDC) to américaines. Triche, logiciels ya assistance to manipulation ya résultats epekisami."
+          },
+          {
+            "title": "Chat na jeu",
+            "body": "Chat ezali mpo na communication ya bokumu. Propos ya haine, harcèlement, menaces, spam mpe contenu sexuel epekisami. Utilisateurs bakoki koyebisa mpe kopekisa basusu."
+          },
+          {
+            "title": "Abonnement premium",
+            "body": "Ba fonctionnalités premium esalemaka selon ba conditions ya abonnement oyo emonisami na achat. Gestion ya abonnement ezali na paramètres ya compte."
+          }
+        ]
+      },
+      {
+        "number": "5.",
+        "title": "DarAkili",
+        "subsections": [
+          {
+            "title": "Contenu ya cours mpe propriété intellectuelle",
+            "body": "Ba cours ebimisami na ba membres ya communauté oyo bazali kobatela propriété ya contenu na bango. Na soumettre cours, créateurs bapesaka licence ya kotambwisa, kolakisa mpe kokabola cours, ata après suppression ya compte soki cours ezali na ba apprenants."
+          },
+          {
+            "title": "Ba paiements mpe achats",
+            "body": "Ba cours mosusu esengaka paiement unique mpo na accès ya bomoi via Stripe (cartes) to PawaPay (mobile money). Ba prix emonisami na USD. Ba achats ya cours ezali final soki accès epesami."
+          },
+          {
+            "title": "Exécution ya code mpe sécurité",
+            "body": "Code oyo otindi mpo na notation esalelami na environnement sécurisé. Ondimi kotinda te code ya mabe to kozwa avantage ya environnement ya exécution."
+          },
+          {
+            "title": "Ba conditions ya revenus créateur",
+            "body": "Na soumettre cours payant, créateurs baponaka part ya revenus kati ya 0% mpe 50% (par défaut 25% na créateur, 75% na plateforme) ya achat net après frais. Accord oyo ezali contraignant. Ba payouts esalemaka na sanza via Stripe Connect."
+          }
+        ]
+      },
+      {
+        "number": "6.",
+        "title": "Yebela Store",
+        "body": "Yebela Store epesaka catalogue en ligne mpe gestion ya boutique mpo na ba entrepreneurs. Ba propriétaires ya boutique bazali responsables ya exactitude ya ba annonces mpe communication ya bokumu na ba clients. Salela Bongo LLC epesaka infrastructure kaka."
+      },
+      {
+        "number": "7.",
+        "title": "Code ya conduite",
+        "body": "Ba utilisateurs esengeli kozala na bokumu na ba plateformes nionso. Insultes, harcèlement, propos discriminatoires, plagiat, triche mpe manipulation ya classements epekisami."
+      },
+      {
+        "number": "8.",
+        "title": "Propriété intellectuelle",
+        "body": "Code, design, textes mpe graphismes ya ba plateformes ezali propriété ya Salela Bongo LLC. Contenu ya cours mpe boutique ezali propriété ya ba créateurs mpe propriétaires na bango."
+      },
+      {
+        "number": "9.",
+        "title": "Suppression ya compte mpe résiliation",
+        "body": "Okoki koboma compte na yo na paramètres ya plateforme to na kotinda email (talá page Suppression ya Data). Tokoki kopekisa to koboma ba comptes soki ba conditions ebandi."
+      },
+      {
+        "number": "10.",
+        "title": "Limitation ya responsabilité",
+        "body": "Ba plateformes na biso epesami « tel quel » sans garantie. Salela Bongo LLC azali responsable te ya ba dommages indirects."
+      },
+      {
+        "number": "11.",
+        "title": "Ba modifications ya conditions",
+        "body": "Tokoki kobongisa ba conditions oyo na ntango nyonso. Ba utilisateurs enregistrés bakoyebisama na email mpo na ba changements ya ntina."
+      },
+      {
+        "number": "12.",
+        "title": "Droit applicable mpe contact",
+        "body": "Ba conditions oyo esalemaka selon mibeko ya États-Unis. Mituna : contact@salelabongo.org. Société : Salela Bongo LLC."
+      }
+    ]
+  },
+  "communityGuidelines": {
+    "title": "Règles ya Communauté",
+    "lastUpdated": "Mise à jour ya nsuka : juin 2026",
+    "intro": "Salela Bongo LLC etongi ba communautés oyo bana ya Afrika bayekoli, balingaka mpe bakelaka commerce. Ba règles oyo esalelami na Jeux de Dames, DarAkili mpe Yebela Store.",
+    "sections": [
+      {
+        "number": "1.",
+        "title": "Bokumu mpe sportivité",
+        "body": "Traitez ba utilisateurs nionso na bokumu, ata niveau, langue to origine na bango. Zala malamu na victoire mpe na défaite. Félicitez adversaires mpe collaborateurs."
+      },
+      {
+        "number": "2.",
+        "title": "Ba règles ya communication",
+        "list": [
+          "Discours ya haine, discrimination to insulte epekisami.",
+          "Harcèlement, intimidation to menace epekisami.",
+          "Contenu sexuel to violent epekisami.",
+          "Spam, publicité to messages répétitifs epekisami.",
+          "Kokabola ba informations personnelles epekisami."
+        ]
+      },
+      {
+        "number": "3.",
+        "title": "Jeu ya solo",
+        "body": "Linga mpe yekola na solo. Kosalela te bots, outils ya assistance to triche na évaluations. Kokangwama te intentionnellement mpo na koboya défaite. Kokabola te résultats to classements na moyens ya mabe."
+      },
+      {
+        "number": "4.",
+        "title": "Ba normes ya contenu (DarAkili mpe Yebela)",
+        "list": [
+          "Kotinda te contenu plagié to protégé sans autorisation.",
+          "Pesa ba descriptions ya solo ya produits mpe cours.",
+          "Yebisa ba bugs, vulnérabilités to contenu inapproprié na équipe na biso."
+        ]
+      },
+      {
+        "number": "5.",
+        "title": "Koyebisa mpe kopekisa",
+        "body": "Yebisa comportement inapproprié na ba outils intégrés to na email ya support ya plateforme. Na Jeux de Dames, okoki kopekisa basusu na chat."
+      },
+      {
+        "number": "6.",
+        "title": "Ba conséquences ya violations",
+        "list": [
+          "Infraction ya liboso : Avertissement.",
+          "Infraction ya mibale : Suspension temporaire (24–72 heures).",
+          "Infraction ya misato : Suspension prolongée (1–4 semaines).",
+          "Violations graves : Bannissement permanent."
+        ]
+      },
+      {
+        "number": "7.",
+        "title": "Condition ya mbula",
+        "body": "Esengeli ozala na mbula 13 to koleka. Utilisateurs ya 13–18 esengeli ndingisa ya moboti. Tozali kondima te bana ya nsé ya 13."
+      },
+      {
+        "number": "8.",
+        "title": "Contact",
+        "body": "Mituna na ba règles oyo ? Tinda email na contact@salelabongo.org to support ya plateforme oyo osaleli."
+      }
+    ]
+  },
+  "dataDeletion": {
+    "title": "Suppression ya Data",
+    "lastUpdated": "Mise à jour ya nsuka : juin 2026",
+    "intro": "Ozali na droit ya kosenga koboma compte na yo mpe ba données personnelles nionso oyo elandi. Biso peyaka na kobongola demande na yo nokinoki.",
+    "sections": [
+      {
+        "number": "1.",
+        "title": "Droit na yo ya koboma",
+        "body": "Selon Politique ya Confidentialité na biso, okoki koboma compte na yo mpe ba données na ntango nyonso. Suppression esalemaka na kati ya mikolo 30. Okoyamba email ya confirmation."
+      },
+      {
+        "number": "2.",
+        "title": "Jeux de Dames",
+        "list": [
+          "Kota mpe kende na Paramètres ya Compte → Zone ya Danger → Koboma Compte na Ngai.",
+          "To tinda email na jeuxdedames@salelabongo.org na email mpe nom d'utilisateur na yo."
+        ]
+      },
+      {
+        "number": "3.",
+        "title": "DarAkili",
+        "list": [
+          "Kota mpe koboma compte na yo na Paramètres ya Profil.",
+          "Exporter ba données na yo na format JSON na Paramètres ya Profil soki olingi.",
+          "To tinda email na darakili@salelabongo.com na adresse email na yo."
+        ]
+      },
+      {
+        "number": "4.",
+        "title": "Yebela Store",
+        "list": [
+          "Benga contact@yebela.store na email ya compte boutique na yo mpe senga suppression."
+        ]
+      },
+      {
+        "number": "5.",
+        "title": "Ba données oyo ebomami",
+        "list": [
+          "Adresse email mpe ba identifiants ya authentification",
+          "Nom d'utilisateur mpe ba informations ya profil",
+          "Historique ya jeu, progression ya cours mpe ba données ya boutique",
+          "Ba messages ya chat mpe historique ya communication",
+          "Ba préférences ya langue mpe affichage"
+        ]
+      },
+      {
+        "number": "6.",
+        "title": "Conservation après suppression",
+        "body": "Ba données personnelles ebomami na kati ya mikolo 30. Ba statistiques anonymes ekoki kobatelama. Ba enregistrements financiers ekoki kobatelama mpo na conformité. Na DarAkili, ba cours publiés ekoki kobatelama na plateforme après suppression ya compte créateur."
+      },
+      {
+        "number": "7.",
+        "title": "Mituna ya général",
+        "body": "Mpo na mituna ya suppression ya data : contact@salelabongo.org"
+      }
+    ],
+    "footerNote": "Talá mpe Politique ya Confidentialité na biso mpo na makoki na yo mobimba."
+  }
+}
