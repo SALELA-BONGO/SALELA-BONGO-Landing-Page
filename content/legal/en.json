@@ -43,7 +43,7 @@
           "Account information: email address, username, name, language preference, and optional profile details (e.g. country, town, profile picture on DarAkili).",
           "Usage data: courses accessed, lessons completed, code submissions, game statistics, shop activity, login timestamps, and session data.",
           "Communication data: in-game chat messages on Jeux de Dames and support correspondence.",
-          "Payment records: transaction amounts, dates, and status. Payment card details are processed by Stripe; mobile money payments are processed by PawaPay. We do not store full payment card numbers on our servers."
+          "Payment records: transaction amounts, dates, and status. Payment details are processed by certified third-party payment providers. We do not store full payment card numbers on our servers."
         ]
       },
       {
@@ -62,17 +62,17 @@
         "title": "Information Sharing",
         "body": "We do not sell your personal information. We share data only with:",
         "list": [
-          "Payment processors: Stripe and PawaPay for payment processing.",
-          "Infrastructure providers: AWS (Amazon Web Services) for authentication, storage, and hosting.",
+          "Payment providers: certified third-party processors for card and mobile money payments.",
+          "Service providers: trusted partners who assist with authentication, storage, and hosting.",
           "Course sponsors: when someone sponsors your DarAkili course access, they may see your name and course progress.",
           "Course creators: aggregate analytics only (completion rates, scores), not individual student data.",
-          "Analytics: Vercel Analytics and Vercel Speed Insights — cookieless tools that do not collect personal data."
+          "Analytics: privacy-friendly tools that do not use tracking cookies or collect personal data."
         ]
       },
       {
         "number": "4.",
         "title": "Data Storage & Security",
-        "body": "Your data is stored in encrypted databases with encryption at rest. Passwords are hashed and never stored in plain text. All API communications use TLS/SSL encryption. Code submissions on DarAkili are executed in secure, limited-permission environments."
+        "body": "Your data is stored in encrypted databases. Industry-standard encryption and authentication practices protect your data in transit and at rest. Learner code on DarAkili is executed in secure, isolated environments."
       },
       {
         "number": "5.",
@@ -159,7 +159,7 @@
           },
           {
             "title": "Payments & Purchases",
-            "body": "Some courses require a one-time payment for lifetime access via Stripe (cards) or PawaPay (mobile money). List prices are shown in USD. Mobile money amounts are converted using market exchange rates at payment session creation. All course purchases are final once access is granted."
+            "body": "Some courses require a one-time payment for lifetime access via certified payment providers (cards and mobile money). List prices are shown in USD. Mobile money amounts are converted using market exchange rates at payment session creation. All course purchases are final once access is granted."
           },
           {
             "title": "Code Execution & Safety",
@@ -167,7 +167,7 @@
           },
           {
             "title": "Creator Revenue Terms",
-            "body": "When submitting a paid course, creators select a revenue share between 0% and 50% (default 25% to creator, 75% to platform) of each net purchase after payment processor fees. This agreement is binding for the commercial life of that course. Payouts are processed monthly where Stripe Connect or an agreed method is available, subject to minimum thresholds. Creators are responsible for taxes in their jurisdiction."
+            "body": "When submitting a paid course, creators select a revenue share between 0% and 50% (default 25% to creator, 75% to platform) of each net purchase after payment processor fees. This agreement is binding for the commercial life of that course. Payouts are processed monthly through approved payout methods, subject to minimum thresholds. Creators are responsible for taxes in their jurisdiction."
           }
         ]
       },
@@ -293,7 +293,7 @@
         "title": "DarAkili",
         "list": [
           "Sign in and delete your account from Profile Settings.",
-          "Export your data in JSON format from Profile Settings before deletion if desired.",
+          "Export your data from Profile Settings before deletion if desired.",
           "Or email darakili@salelabongo.com with your registered email address."
         ]
       },

@@ -43,7 +43,7 @@
           "Ba informations ya compte : adresse email, nom d'utilisateur, kombo, préférence ya langue mpe ba détails ya profil (mboka, engumba, photo ya profil na DarAkili).",
           "Ba données ya utilisation : ba cours oyo omoni, ba leçons oyo osilisi, ba soumissions ya code, ba statistiques ya jeu, activité ya boutique, ba timestamps ya connexion.",
           "Ba données ya communication : ba messages ya chat na Jeux de Dames mpe correspondance na support.",
-          "Ba enregistrements ya paiement : motuya, mokolo mpe statut. Ba cartes bancaires esalelami na Stripe ; mobile money na PawaPay. Tozali kobomba te ba numéros complets ya carte."
+          "Ba enregistrements ya paiement : motuya, mokolo mpe statut. Ba paiements esalelami na ba prestataires tiers certifiés. Tozali kobomba te ba numéros complets ya carte."
         ]
       },
       {
@@ -62,17 +62,17 @@
         "title": "Kokabola ba informations",
         "body": "Tozali koteka te ba données personnelles na yo. Tokabola kaka na :",
         "list": [
-          "Ba processeurs ya paiement : Stripe mpe PawaPay.",
-          "Ba prestataires ya infrastructure : AWS mpo na authentification, stockage mpe hébergement.",
+          "Ba prestataires ya paiement : ba processeurs tiers certifiés mpo na ba cartes mpe mobile money.",
+          "Ba prestataires ya services : ba partenaires ya confiance mpo na authentification, stockage mpe hébergement.",
           "Ba parrains ya cours : soki moto aparraine accès na yo na DarAkili, akoki komona kombo na yo mpe progression.",
           "Ba créateurs ya cours : ba statistiques agrégées kaka, ata moko te ya données individuelles.",
-          "Analytics : Vercel Analytics mpe Vercel Speed Insights — ba outils sans cookies."
+          "Analytics : ba outils oyo bazali respectueux ya vie privée mpe bazali kosalela te ba cookies ya suivi."
         ]
       },
       {
         "number": "4.",
         "title": "Stockage mpe sécurité ya ba données",
-        "body": "Ba données na yo ebombami na ba bases chiffrées. Ba mots de passe ezali hashed mpe jamais stockés en clair. Ba communications API esalelaka TLS/SSL. Code na DarAkili esalelami na environnement sécurisé."
+        "body": "Ba données na yo ebombami na ba bases chiffrées. Ba pratiques ya chiffrement mpe authentification ya standard ya secteur bazali kobatela ba données na yo. Code ya ba apprenants na DarAkili esalelami na ba environnements sécurisés mpe isolés."
       },
       {
         "number": "5.",
@@ -159,7 +159,7 @@
           },
           {
             "title": "Ba paiements mpe achats",
-            "body": "Ba cours mosusu esengaka paiement unique mpo na accès ya bomoi via Stripe (cartes) to PawaPay (mobile money). Ba prix emonisami na USD. Ba achats ya cours ezali final soki accès epesami."
+            "body": "Ba cours mosusu esengaka paiement unique mpo na accès ya bomoi via ba prestataires ya paiement certifiés (cartes mpe mobile money). Ba prix emonisami na USD. Ba achats ya cours ezali final soki accès epesami."
           },
           {
             "title": "Exécution ya code mpe sécurité",
@@ -167,7 +167,7 @@
           },
           {
             "title": "Ba conditions ya revenus créateur",
-            "body": "Na soumettre cours payant, créateurs baponaka part ya revenus kati ya 0% mpe 50% (par défaut 25% na créateur, 75% na plateforme) ya achat net après frais. Accord oyo ezali contraignant. Ba payouts esalemaka na sanza via Stripe Connect."
+            "body": "Na soumettre cours payant, créateurs baponaka part ya revenus kati ya 0% mpe 50% (par défaut 25% na créateur, 75% na plateforme) ya achat net après frais. Accord oyo ezali contraignant. Ba payouts esalemaka na sanza na ba méthodes ya paiement approuvées, na kondima ya seuils minimums."
           }
         ]
       },
@@ -293,7 +293,7 @@
         "title": "DarAkili",
         "list": [
           "Kota mpe koboma compte na yo na Paramètres ya Profil.",
-          "Exporter ba données na yo na format JSON na Paramètres ya Profil soki olingi.",
+          "Exporter ba données na yo na Paramètres ya Profil soki olingi.",
           "To tinda email na darakili@salelabongo.com na adresse email na yo."
         ]
       },

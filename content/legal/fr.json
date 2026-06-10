@@ -43,7 +43,7 @@
           "Informations de compte : adresse e-mail, nom d'utilisateur, nom, préférence linguistique et détails de profil facultatifs (pays, ville, photo de profil sur DarAkili).",
           "Données d'utilisation : cours consultés, leçons terminées, soumissions de code, statistiques de jeu, activité boutique, horodatages de connexion et données de session.",
           "Données de communication : messages de chat en jeu sur Jeux de Dames et correspondance avec le support.",
-          "Enregistrements de paiement : montants, dates et statuts des transactions. Les cartes bancaires sont traitées par Stripe ; le mobile money par PawaPay. Nous ne stockons pas les numéros de carte complets."
+          "Enregistrements de paiement : montants, dates et statuts des transactions. Les paiements sont traités par des prestataires tiers certifiés. Nous ne stockons pas les numéros de carte complets."
         ]
       },
       {
@@ -62,17 +62,17 @@
         "title": "Partage d'informations",
         "body": "Nous ne vendons pas vos données personnelles. Nous ne partageons des données qu'avec :",
         "list": [
-          "Processeurs de paiement : Stripe et PawaPay.",
-          "Prestataires d'infrastructure : AWS pour l'authentification, le stockage et l'hébergement.",
+          "Prestataires de paiement : processeurs tiers certifiés pour les cartes et le mobile money.",
+          "Prestataires de services : partenaires de confiance pour l'authentification, le stockage et l'hébergement.",
           "Parrains de cours : lorsqu'une personne parraine votre accès DarAkili, elle peut voir votre nom et votre progression.",
           "Créateurs de cours : statistiques agrégées uniquement, pas de données individuelles des étudiants.",
-          "Analytique : Vercel Analytics et Vercel Speed Insights — outils sans cookies ne collectant aucune donnée personnelle."
+          "Analytique : outils respectueux de la vie privée qui n'utilisent pas de cookies de suivi et ne collectent pas de données personnelles."
         ]
       },
       {
         "number": "4.",
         "title": "Stockage et sécurité des données",
-        "body": "Vos données sont stockées dans des bases chiffrées. Les mots de passe sont hachés et jamais stockés en clair. Toutes les communications API utilisent le chiffrement TLS/SSL. Le code soumis sur DarAkili s'exécute dans des environnements sécurisés à permissions limitées."
+        "body": "Vos données sont stockées dans des bases chiffrées. Des pratiques de chiffrement et d'authentification conformes aux standards du secteur protègent vos données en transit et au repos. Le code des apprenants sur DarAkili s'exécute dans des environnements sécurisés et isolés."
       },
       {
         "number": "5.",
@@ -159,7 +159,7 @@
           },
           {
             "title": "Paiements et achats",
-            "body": "Certains cours nécessitent un paiement unique pour un accès à vie via Stripe (cartes) ou PawaPay (mobile money). Les prix sont affichés en USD. Les montants mobile money sont convertis selon les taux de change en vigueur. Tous les achats de cours sont définitifs une fois l'accès accordé."
+            "body": "Certains cours nécessitent un paiement unique pour un accès à vie via des prestataires de paiement certifiés (cartes et mobile money). Les prix sont affichés en USD. Les montants mobile money sont convertis selon les taux de change en vigueur. Tous les achats de cours sont définitifs une fois l'accès accordé."
           },
           {
             "title": "Exécution du code et sécurité",
@@ -167,7 +167,7 @@
           },
           {
             "title": "Conditions de rémunération des créateurs",
-            "body": "Lors de la soumission d'un cours payant, les créateurs choisissent une part de revenus entre 0 % et 50 % (par défaut 25 % au créateur, 75 % à la plateforme) de chaque achat net après frais du processeur. Cet accord est contraignant pour la durée commerciale du cours. Les paiements sont mensuels via Stripe Connect ou méthode convenue, sous réserve de seuils minimums."
+            "body": "Lors de la soumission d'un cours payant, les créateurs choisissent une part de revenus entre 0 % et 50 % (par défaut 25 % au créateur, 75 % à la plateforme) de chaque achat net après frais du processeur. Cet accord est contraignant pour la durée commerciale du cours. Les versements sont effectués mensuellement via des méthodes de paiement approuvées, sous réserve de seuils minimums."
           }
         ]
       },
@@ -293,7 +293,7 @@
         "title": "DarAkili",
         "list": [
           "Connectez-vous et supprimez votre compte depuis les Paramètres du profil.",
-          "Exportez vos données au format JSON depuis les Paramètres du profil avant suppression si vous le souhaitez.",
+          "Exportez vos données depuis les Paramètres du profil avant suppression si vous le souhaitez.",
           "Ou envoyez un e-mail à darakili@salelabongo.com avec votre adresse e-mail enregistrée."
         ]
       },
