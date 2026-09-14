@@ -41,7 +41,7 @@ const t = {
     },
     apps: {
       title: "Nos Plateformes",
-      sub: "Trois produits — un seul engagement envers l'excellence.",
+      sub: "Quatre produits — un seul engagement envers l'excellence.",
       list: [
         {
           id: "darakili",
@@ -76,6 +76,17 @@ const t = {
           desc: "Plateforme de jeu de dames en ligne avec variantes congolaise, internationale et américaine. Jeux en temps réel, chat, abonnement premium et profils utilisateurs.",
           features: ["Jeu en temps réel", "3 variantes de jeu", "Abonnement Premium", "iOS & Android"],
           url: "https://jeuxdedames.africa",
+        },
+        {
+          id: "cbd",
+          logo: "/logo-cbd.png",
+          name: "CBD — Doublage Bilingue Consécutif",
+          domain: "cbd.salelabongo.org",
+          tag: "Web · IA",
+          color: "#06b6d4",
+          desc: "Interprétation consécutive pour n'importe quelle vidéo. L'orateur est entendu dans ses propres mots, puis une voix d'interprète rend chaque passage dans votre langue — le rythme d'un interprète en salle, pas un doublage par-dessus. Collez un lien ou téléversez un fichier.",
+          features: ["Anglais, Français, Espagnol, Swahili", "Source en Lingala reconnue", "Sous-titres .srt inclus", "Musique de fond retirée"],
+          url: "https://cbd.salelabongo.org",
         },
       ],
     },
@@ -146,7 +157,7 @@ const t = {
     },
     apps: {
       title: "Our Platforms",
-      sub: "Three products — one commitment to excellence.",
+      sub: "Four products — one commitment to excellence.",
       list: [
         {
           id: "darakili",
@@ -181,6 +192,17 @@ const t = {
           desc: "Online checkers platform with Congolese, International and American variants. Real-time gameplay, in-game chat, premium subscription and user profiles.",
           features: ["Real-time play", "3 game variants", "Premium subscription", "iOS & Android"],
           url: "https://jeuxdedames.africa",
+        },
+        {
+          id: "cbd",
+          logo: "/logo-cbd.png",
+          name: "CBD — Consecutive Bilingual Dubbing",
+          domain: "cbd.salelabongo.org",
+          tag: "Web · AI",
+          color: "#06b6d4",
+          desc: "Consecutive interpretation for any video. The speaker is heard in their own words, then an interpreter voices each passage in your language — the rhythm of a live interpreter, not a dub over the top. Paste a link or upload a file.",
+          features: ["English, French, Spanish, Swahili", "Understands Lingala source", "Subtitles (.srt) included", "Background music removed"],
+          url: "https://cbd.salelabongo.org",
         },
       ],
     },
@@ -251,7 +273,7 @@ const t = {
     },
     apps: {
       title: "Plateformes na Biso",
-      sub: "Biloko misato — commitment moko ya malamu.",
+      sub: "Biloko minei — commitment moko ya malamu.",
       list: [
         {
           id: "darakili",
@@ -286,6 +308,17 @@ const t = {
           desc: "Plateau ya jeu de dames online na variantes ya Congo, Internationale mpe Américaine. Jeu ya temps réel, chat, abonnement premium mpe profils.",
           features: ["Jeu ya temps réel", "Variantes 3", "Premium", "iOS & Android"],
           url: "https://jeuxdedames.africa",
+        },
+        {
+          id: "cbd",
+          logo: "/logo-cbd.png",
+          name: "CBD — Bodoublage Bilingue",
+          domain: "cbd.salelabongo.org",
+          tag: "Web · IA",
+          color: "#06b6d4",
+          desc: "Bobongoli ya maloba mpo na vidéo nionso. Moteyi ayokani na maloba na ye moko, na sima mongala abongoli eteni moko na moko na monoko na yo — lokola interprète ya solo na ndako, kasi doublage te. Tinda link to téléverse fichier.",
+          features: ["Anglais, Français, Espagnol, Swahili", "Eyebi Lingala lokola source", "Sous-titres .srt", "Musique ya nsima elongolami"],
+          url: "https://cbd.salelabongo.org",
         },
       ],
     },
@@ -378,7 +411,7 @@ export default function Home() {
           <a href="#contact" className={styles.btnGhost}>{txt.hero.ctaSub}</a>
         </div>
         <div className={styles.heroStats}>
-          <div className={styles.stat}><span className={styles.statNum}>3</span><span className={styles.statLabel}>Plateformes</span></div>
+          <div className={styles.stat}><span className={styles.statNum}>4</span><span className={styles.statLabel}>Plateformes</span></div>
           <div className={styles.statDivider} />
           <div className={styles.stat}><span className={styles.statNum}>3</span><span className={styles.statLabel}>Langues</span></div>
           <div className={styles.statDivider} />
