@@ -203,7 +203,7 @@ const t = {
           ctaUrl: "https://kuetu.salelabongo.org",
         },
       ],
-      note: "Kuetu est en phase pilote : l'inscription des annotateurs se fait sur invitation et les premiers projets se configurent avec notre équipe. Écrivez à <a href=\"mailto:contact@salelabongo.org\" style=\"color: #a78bfa; text-decoration: underline;\">contact@salelabongo.org</a> pour ouvrir un projet ou rejoindre le vivier d'annotateurs.",
+      note: "Kuetu est en phase pilote : l'inscription des annotateurs se fait sur invitation et les premiers projets se configurent avec notre équipe. Écrivez à <a href=\"mailto:kuetu@salelabongo.org\" style=\"color: #a78bfa; text-decoration: underline;\">kuetu@salelabongo.org</a> pour ouvrir un projet ou rejoindre le vivier d'annotateurs.",
     },
     legal: {
       title: "Conformité & Légal",
@@ -411,7 +411,7 @@ const t = {
           ctaUrl: "https://kuetu.salelabongo.org",
         },
       ],
-      note: "Kuetu is in pilot: annotators join by invitation and the first projects are set up with our team. Write to <a href=\"mailto:contact@salelabongo.org\" style=\"color: #a78bfa; text-decoration: underline;\">contact@salelabongo.org</a> to open a project or to join the annotator pool.",
+      note: "Kuetu is in pilot: annotators join by invitation and the first projects are set up with our team. Write to <a href=\"mailto:kuetu@salelabongo.org\" style=\"color: #a78bfa; text-decoration: underline;\">kuetu@salelabongo.org</a> to open a project or to join the annotator pool.",
     },
     legal: {
       title: "Compliance & Legal",
@@ -619,7 +619,7 @@ const t = {
           ctaUrl: "https://kuetu.salelabongo.org",
         },
       ],
-      note: "Kuetu ezali na etape ya pilote : bato batiaka ba étiquettes bakotaka na invitation, mpe ba projets ya liboso ebongisamaka elongo na équipe na biso. Komela <a href=\"mailto:contact@salelabongo.org\" style=\"color: #a78bfa; text-decoration: underline;\">contact@salelabongo.org</a> mpo na kofungola projet to mpo na kokota na lisanga ya batie ba étiquettes.",
+      note: "Kuetu ezali na etape ya pilote : bato batiaka ba étiquettes bakotaka na invitation, mpe ba projets ya liboso ebongisamaka elongo na équipe na biso. Komela <a href=\"mailto:kuetu@salelabongo.org\" style=\"color: #a78bfa; text-decoration: underline;\">kuetu@salelabongo.org</a> mpo na kofungola projet to mpo na kokota na lisanga ya batie ba étiquettes.",
     },
     legal: {
       title: "Conformité & Légal",
@@ -1006,8 +1006,8 @@ export default function Home() {
             </div>
             <div className={styles.contactCard}>
               <div className={styles.contactCardTitle}>Kuetu</div>
-              <a href="mailto:contact@salelabongo.org" className={styles.contactEmail}>
-                contact@salelabongo.org
+              <a href="mailto:kuetu@salelabongo.org" className={styles.contactEmail}>
+                kuetu@salelabongo.org
               </a>
             </div>
           </div>
