@@ -14,6 +14,12 @@ const DARAKILI_STORES = {
   android: "https://play.google.com/store/apps/details?id=com.darakili.android",
 };
 
+/** DoubleVoix's published listings — same pattern as DarAkili above. */
+const DOUBLEVOIX_STORES = {
+  ios: "https://apps.apple.com/us/app/doublevoix/id6812914968",
+  android: "https://play.google.com/store/apps/details?id=org.salelabongo.cbd",
+};
+
 const t = {
   fr: {
     nav: { about: "À propos", apps: "Nos Plateformes", contact: "Contact" },
@@ -67,12 +73,12 @@ const t = {
           logo: "/logo-doublevoix.png",
           name: "DoubleVoix",
           domain: "www.doublevoix.com",
-          tag: "Web · IA · iOS & Android bientôt",
+          tag: "Web · IA · iOS · Android · Disponible",
           color: "#f97316",
           desc: "Anciennement CBD — Doublage Bilingue Consécutif (cbd.salelabongo.org). Interprétation consécutive pour n'importe quelle vidéo : l'orateur est entendu dans ses propres mots, puis une voix d'interprète rend chaque passage dans votre langue — le rythme d'un interprète en salle, pas un doublage par-dessus. Collez un lien ou téléversez un fichier ; la première minute est offerte.",
-          features: ["Anglais, Français, Espagnol, Swahili, Allemand", "Source en Lingala reconnue", "Sous-titres .srt inclus", "Musique de fond retirée"],
+          features: ["Anglais, Français, Espagnol, Swahili, Allemand", "Source en Lingala reconnue", "Sous-titres .srt inclus", "Musique de fond retirée", "App iOS & Android"],
           url: "https://www.doublevoix.com",
-          soon: "Applications iOS & Android — bientôt disponibles",
+          stores: DOUBLEVOIX_STORES,
         },
         {
           id: "kuetu",
@@ -126,7 +132,7 @@ const t = {
         "Notre vision est de connecter les Africains du monde entier les uns aux autres — partageant l'intelligence, les compétences et la sagesse à travers les frontières et les langues. Nous croyons que l'intellect africain doit circuler librement à travers le monde. Il est temps d'utiliser nos cerveaux — <em>Salela Bongo</em> — pour partager le savoir, échanger des idées et élever notre intelligence collective.",
       ],
       downloadTitle: "Disponible maintenant sur iPhone et Android",
-      downloadText: "L'application DarAkili est publiée sur l'App Store et sur Google Play. Toute la plateforme tient dans le téléphone : suivre un cours hors du navigateur, reprendre une leçon là où le web l'avait laissée, voir son classement par ville et par pays, payer ou parrainer un cours en mobile money, et recevoir une notification quand un cours suivi est mis à jour. Un seul compte DarAkili pour le web, iOS et Android.",
+      downloadText: "L'application DarAkili est publiée sur l'App Store et sur Google Play. Toute la plateforme tient dans le téléphone : suivre un cours hors du navigateur, reprendre une leçon là où le web l'avait laissée, voir son classement par ville et par pays, payer ou parrainer un cours par achat intégré (Apple ou Google), et recevoir une notification quand un cours suivi est mis à jour. Le paiement en mobile money reste disponible sur le web. Un seul compte DarAkili pour le web, iOS et Android.",
       iosLabel: "Télécharger sur l'App Store",
       androidLabel: "Disponible sur Google Play",
     },
@@ -148,10 +154,10 @@ const t = {
         "Pour qui ? Prédications et enseignements, conférences et formations, témoignages, contenus de la diaspora — tout ce qui mérite d'être compris au-delà de la langue dans laquelle il a été dit. Collez un lien (YouTube, Facebook, Instagram, TikTok, X…) ou téléversez un fichier, choisissez la langue, et la première minute revient interprétée, gratuitement.",
         "Cinq langues d'arrivée à ce jour — anglais, français, espagnol, swahili, allemand — et surtout, <strong>le lingala est reconnu en langue source</strong> : précisément le genre de langue que les outils commerciaux ignorent. Chaque traduction peut être relue et corrigée avant que la voix ne soit produite, les sous-titres .srt accompagnent la vidéo finale, et la musique de fond peut être retirée puis restituée pour que seule la parole soit interprétée.",
       ],
-      soonTitle: "Sur mobile, bientôt",
-      soonText: "Les applications natives iOS et Android de DoubleVoix arrivent : même service, même compte, dans votre poche — coller un lien, suivre l'avancement du traitement, recevoir une notification quand la vidéo est prête, puis la partager. <strong>Bientôt disponibles</strong> sur l'App Store et sur Google Play.",
-      soonIos: "App Store — bientôt",
-      soonAndroid: "Google Play — bientôt",
+      downloadTitle: "Disponible maintenant sur iPhone et Android",
+      downloadText: "Les applications natives iOS et Android de DoubleVoix sont publiées : même service, même compte, dans votre poche — coller un lien, suivre l'avancement du traitement, recevoir une notification quand la vidéo est prête, puis la partager.",
+      iosLabel: "Télécharger sur l'App Store",
+      androidLabel: "Disponible sur Google Play",
       contactLabel: "Contact DoubleVoix",
       contactEmail: "doublevoix@salelabongo.org",
     },
@@ -275,12 +281,12 @@ const t = {
           logo: "/logo-doublevoix.png",
           name: "DoubleVoix",
           domain: "www.doublevoix.com",
-          tag: "Web · AI · iOS & Android coming soon",
+          tag: "Web · AI · iOS · Android · Available now",
           color: "#f97316",
           desc: "Formerly CBD — Consecutive Bilingual Dubbing (cbd.salelabongo.org). Consecutive interpretation for any video: the speaker is heard in their own words, then an interpreter voices each passage in your language — the rhythm of a live interpreter, not a dub over the top. Paste a link or upload a file; the first minute is free.",
-          features: ["English, French, Spanish, Swahili, German", "Understands Lingala source", "Subtitles (.srt) included", "Background music removed"],
+          features: ["English, French, Spanish, Swahili, German", "Understands Lingala source", "Subtitles (.srt) included", "Background music removed", "iOS & Android app"],
           url: "https://www.doublevoix.com",
-          soon: "iOS & Android apps — available soon",
+          stores: DOUBLEVOIX_STORES,
         },
         {
           id: "kuetu",
@@ -334,7 +340,7 @@ const t = {
         "Our ultimate vision is to connect Africans across the globe directly to each other — sharing intelligence, skills, and wisdom across borders and languages. We believe that African intellect should flow seamlessly across the world. It is time to use our brains — <em>Salela Bongo</em> — to share knowledge, exchange ideas, and elevate our collective intellect.",
       ],
       downloadTitle: "Available now on iPhone and Android",
-      downloadText: "The DarAkili app is published on the App Store and on Google Play. The whole platform fits in the phone: take a course outside the browser, pick a lesson up where the web left it, watch your standing on the city and country leaderboards, pay for or sponsor a course with mobile money, and get a notification when a course you follow is updated. One DarAkili account across web, iOS and Android.",
+      downloadText: "The DarAkili app is published on the App Store and on Google Play. The whole platform fits in the phone: take a course outside the browser, pick a lesson up where the web left it, watch your standing on the city and country leaderboards, pay for or sponsor a course via in-app purchase (Apple or Google), and get a notification when a course you follow is updated. Mobile money payment remains available on the web. One DarAkili account across web, iOS and Android.",
       iosLabel: "Download on the App Store",
       androidLabel: "Get it on Google Play",
     },
@@ -356,10 +362,10 @@ const t = {
         "Who is it for? Sermons and teaching, conferences and training, testimonies, diaspora content — anything worth understanding beyond the language it was said in. Paste a link (YouTube, Facebook, Instagram, TikTok, X…) or upload a file, pick a language, and the first minute comes back interpreted, free.",
         "Five target languages so far — English, French, Spanish, Swahili, German — and, more to the point, <strong>Lingala is understood as a source language</strong>: exactly the kind of language commercial tools leave out. Every translation can be reviewed and corrected before any voice is generated, .srt subtitles ship with the finished video, and background music can be stripped and restored so that only the speech is interpreted.",
       ],
-      soonTitle: "On mobile, soon",
-      soonText: "Native iOS and Android apps for DoubleVoix are on the way: the same service and the same account, in your pocket — paste a link, follow the processing, get a notification when the video is ready, then share it. <strong>Available soon</strong> on the App Store and Google Play.",
-      soonIos: "App Store — soon",
-      soonAndroid: "Google Play — soon",
+      downloadTitle: "Available now on iPhone and Android",
+      downloadText: "Native iOS and Android apps for DoubleVoix are published: the same service and the same account, in your pocket — paste a link, follow the processing, get a notification when the video is ready, then share it.",
+      iosLabel: "Download on the App Store",
+      androidLabel: "Get it on Google Play",
       contactLabel: "DoubleVoix contact",
       contactEmail: "doublevoix@salelabongo.org",
     },
@@ -483,12 +489,12 @@ const t = {
           logo: "/logo-doublevoix.png",
           name: "DoubleVoix",
           domain: "www.doublevoix.com",
-          tag: "Web · IA · iOS & Android ekoya",
+          tag: "Web · IA · iOS · Android · Ezali sikoyo",
           color: "#f97316",
           desc: "Liboso ezalaki CBD — Bodoublage Bilingue (cbd.salelabongo.org). Bobongoli ya maloba mpo na vidéo nionso : moteyi ayokani na maloba na ye moko, na sima mongala abongoli eteni moko na moko na monoko na yo — lokola interprète ya solo na ndako, kasi doublage te. Tinda link to téléverse fichier ; miniti ya liboso ezali ofele.",
-          features: ["Anglais, Français, Espagnol, Swahili, Allemand", "Eyebi Lingala lokola source", "Sous-titres .srt", "Musique ya nsima elongolami"],
+          features: ["Anglais, Français, Espagnol, Swahili, Allemand", "Eyebi Lingala lokola source", "Sous-titres .srt", "Musique ya nsima elongolami", "App iOS & Android"],
           url: "https://www.doublevoix.com",
-          soon: "Ba applications iOS & Android — ekoya nokinoki",
+          stores: DOUBLEVOIX_STORES,
         },
         {
           id: "kuetu",
@@ -542,7 +548,7 @@ const t = {
         "Mokano na biso ya monene ezali ya kosangisa bana ya Afrika ya mokili mobimba bango na bango — mpo bákabola mayele, makoki, mpe bwanya, na nzela ya mikolo mpe minoko nyonso. Tondimi ete mayele ya bana ya Afrika esengeli kotambola ofele na mokili mobimba. Ngonga ekoki — <em>Salela Bongo</em> — mpo na kokabola boyebi, kosangisa makanisi, mpe kotombola mayele na biso nionso.",
       ],
       downloadTitle: "Ezali sikoyo na iPhone mpe na Android",
-      downloadText: "Application ya DarAkili ebimi na App Store mpe na Google Play. Plateforme mobimba ekoti na telefone : kolanda cours na kozanga navigateur, kokoba leçon esika web etikaki yango, kotala classement na yo na engumba mpe na mboka, kofuta to kosunga cours na mobile money, mpe kozwa notification tango cours oyo ozali kolanda ebongisami. Compte moko ya DarAkili mpo na web, iOS mpe Android.",
+      downloadText: "Application ya DarAkili ebimi na App Store mpe na Google Play. Plateforme mobimba ekoti na telefone : kolanda cours na kozanga navigateur, kokoba leçon esika web etikaki yango, kotala classement na yo na engumba mpe na mboka, kofuta to kosunga cours na achat na kati ya application (Apple to Google), mpe kozwa notification tango cours oyo ozali kolanda ebongisami. Kofuta na mobile money ezali kaka na web. Compte moko ya DarAkili mpo na web, iOS mpe Android.",
       iosLabel: "Kozwa na App Store",
       androidLabel: "Kozwa na Google Play",
     },
@@ -564,10 +570,10 @@ const t = {
         "Mpo na banani ? Masakoli mpe mateya, ba conférences mpe ba formations, ba témoignages, biloko ya diaspora — nionso oyo esengeli koyokana koleka monoko oyo elobamaki na yango. Tinda link (YouTube, Facebook, Instagram, TikTok, X…) to téléverse fichier, pona monoko, mpe miniti ya liboso ezongi ebongolami, ofele.",
         "Minoko mitano ya bokomi tii lelo — Anglais, Français, Espagnol, Swahili, Allemand — mpe likambo ya ntina : <strong>Lingala eyebani lokola monoko ya source</strong>, kaka lolenge ya monoko oyo bisaleli ya mombongo etikaka pembeni. Bobongoli nionso ekoki kotangama mpe kobongisama liboso mongongo esalema, sous-titres .srt ezali elongo na vidéo ya nsuka, mpe musique ya nsima ekoki kolongolama mpe kozongisama mpo kaka maloba ebongolama.",
       ],
-      soonTitle: "Na telefone, nokinoki",
-      soonText: "Ba applications ya solo ya iOS mpe Android ya DoubleVoix ezali koya : service moko, compte moko, na poche na yo — kotinda link, kolanda mosala, kozwa notification tango vidéo esili, mpe kokabola yango. <strong>Ekoya nokinoki</strong> na App Store mpe na Google Play.",
-      soonIos: "App Store — nokinoki",
-      soonAndroid: "Google Play — nokinoki",
+      downloadTitle: "Ezali sikoyo na iPhone mpe na Android",
+      downloadText: "Ba applications ya solo ya iOS mpe Android ya DoubleVoix ebimi : service moko, compte moko, na poche na yo — kotinda link, kolanda mosala, kozwa notification tango vidéo esili, mpe kokabola yango.",
+      iosLabel: "Kozwa na App Store",
+      androidLabel: "Kozwa na Google Play",
       contactLabel: "Contact DoubleVoix",
       contactEmail: "doublevoix@salelabongo.org",
     },
@@ -802,11 +808,6 @@ export default function Home() {
                   </a>
                 </div>
               ) : null}
-              {"soon" in app && app.soon ? (
-                <div className={styles.storeRow}>
-                  <span className={styles.storeSoon}>📱 {app.soon}</span>
-                </div>
-              ) : null}
               </div>
             ))}
           </div>
@@ -885,11 +886,15 @@ export default function Home() {
           </div>
 
           <div className={styles.downloadCard}>
-            <div className={styles.downloadTitle}>📱 {txt.doublevoix.soonTitle}</div>
-            <p className={styles.downloadText} dangerouslySetInnerHTML={{ __html: txt.doublevoix.soonText }} />
+            <div className={styles.downloadTitle}>📱 {txt.doublevoix.downloadTitle}</div>
+            <p className={styles.downloadText}>{txt.doublevoix.downloadText}</p>
             <div className={styles.storeRow}>
-              <span className={styles.storeSoonLg}><AppleIcon /> {txt.doublevoix.soonIos}</span>
-              <span className={styles.storeSoonLg}><PlayIcon /> {txt.doublevoix.soonAndroid}</span>
+              <a href={DOUBLEVOIX_STORES.ios} target="_blank" rel="noopener noreferrer" className={styles.storeBtnLg}>
+                <AppleIcon /> {txt.doublevoix.iosLabel}
+              </a>
+              <a href={DOUBLEVOIX_STORES.android} target="_blank" rel="noopener noreferrer" className={styles.storeBtnLg}>
+                <PlayIcon /> {txt.doublevoix.androidLabel}
+              </a>
             </div>
           </div>
 
