@@ -55,9 +55,9 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://salelabongo.org/main.jpeg",
-        width: 2168,
-        height: 1952,
+        url: "https://salelabongo.org/og-image.jpg",
+        width: 1200,
+        height: 630,
         alt: "Salela Bongo LLC — Apprenez. Changez Votre Vie. / Learn. Change Your Life.",
         type: "image/jpeg",
       },
@@ -68,7 +68,7 @@ export const metadata: Metadata = {
     title: "Salela Bongo LLC — Apprenez. Changez Votre Vie.",
     description:
       "Applications mobiles et plateformes numériques pour l'Afrique et sa diaspora. / Mobile apps and digital platforms for Africa and its diaspora.",
-    images: ["https://salelabongo.org/main.jpeg"],
+    images: ["https://salelabongo.org/og-image.jpg"],
   },
   icons: {
     icon: [
