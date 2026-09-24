@@ -48,14 +48,14 @@ export const metadata: Metadata = {
     title: "Salela Bongo LLC — Apprenez. Changez Votre Vie.",
     description:
       "Applications mobiles et plateformes numériques conçues pour l'Afrique — en français, anglais et lingala. / Mobile apps and digital platforms built for Africa — in French, English, and Lingala.",
-    url: "https://salelabongo.org",
+    url: "https://www.salelabongo.org",
     siteName: "Salela Bongo LLC",
     locale: "fr_FR",
     alternateLocale: ["en_US"],
     type: "website",
     images: [
       {
-        url: "https://salelabongo.org/og-image.jpg",
+        url: "https://www.salelabongo.org/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Salela Bongo LLC — Apprenez. Changez Votre Vie. / Learn. Change Your Life.",
@@ -68,7 +68,7 @@ export const metadata: Metadata = {
     title: "Salela Bongo LLC — Apprenez. Changez Votre Vie.",
     description:
       "Applications mobiles et plateformes numériques pour l'Afrique et sa diaspora. / Mobile apps and digital platforms for Africa and its diaspora.",
-    images: ["https://salelabongo.org/og-image.jpg"],
+    images: ["https://www.salelabongo.org/og-image.jpg"],
   },
   icons: {
     icon: [
