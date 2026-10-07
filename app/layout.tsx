@@ -18,7 +18,7 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: "Salela Bongo LLC — Apprenez. Changez Votre Vie. / Learn. Change Your Life.",
   description:
-    "Salela Bongo LLC est une société technologique américaine qui construit des applications mobiles et des plateformes numériques pour l'Afrique et sa diaspora. Nos produits incluent Jeux de Dames, DarAkili, Yebela Store, DoubleVoix (interprétation consécutive, anciennement CBD) et Kuetu (annotation de données pour les langues africaines). — Salela Bongo LLC is a US-registered technology company building mobile apps and digital platforms for Africa and its diaspora. Products include Jeux de Dames, DarAkili, Yebela Store, DoubleVoix (consecutive interpretation, formerly CBD), and Kuetu (data labelling for African languages).",
+    "Salela Bongo LLC est une société technologique américaine qui édite ses propres applications mobiles et plateformes numériques pour l'Afrique et sa diaspora. Nos produits incluent Jeux de Dames, DarAkili, Yebela Store, DoubleVoix (interprétation consécutive, anciennement CBD) et Kuetu (annotation de données pour les langues africaines). — Salela Bongo LLC is a US-registered technology company that publishes its own mobile apps and digital platforms for Africa and its diaspora. Products include Jeux de Dames, DarAkili, Yebela Store, DoubleVoix (consecutive interpretation, formerly CBD), and Kuetu (data labelling for African languages).",
   keywords: [
     "Salela Bongo",
     "African apps",
