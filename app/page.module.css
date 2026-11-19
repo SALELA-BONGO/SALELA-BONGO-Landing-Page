@@ -431,9 +431,12 @@
   overflow: hidden;
   text-decoration: none;
   color: inherit;
-  cursor: pointer;
+  cursor: auto;
+  user-select: text;
+  -webkit-user-select: text;
 }
 .appCard::before {
+  pointer-events: none;
   content: "";
   position: absolute;
   inset: 0;
@@ -442,11 +445,12 @@
   opacity: 0.05;
   transition: opacity 0.3s;
 }
+/* No lift on hover: a card that moves under the pointer fights a drag-selection. */
 .appCard:hover {
   border-color: rgba(255,255,255,0.14);
-  transform: translateY(-4px);
   box-shadow: 0 20px 40px rgba(0,0,0,0.3);
 }
+.appCard > * { position: relative; }
 .appCard:hover::before {
   opacity: 0.12;
 }
@@ -455,6 +459,15 @@
   display: flex;
   align-items: flex-start;
   gap: 1rem;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+.appFooter {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
 }
 .appLogoWrap {
   width: 56px;
@@ -1026,6 +1039,8 @@
   .navLinks { display: none; }
   .navRight .socialLinks { display: none; }
   .nav { padding: 1rem 1.25rem; }
+  .langSwitcher { gap: 0.25rem; }
+  .langBtn { padding: 0.3rem 0.6rem; font-size: 0.72rem; }
   .hero { padding: 7rem 1.25rem 3rem; }
   .heroStats {
     flex-direction: column;
@@ -1043,3 +1058,142 @@
   .heroCTAs { flex-direction: column; align-items: center; }
   .btnPrimary, .btnGhost { width: 100%; max-width: 300px; text-align: center; }
 }
+
+
+/* ────────────────────────────────────────────
+   COPYABLE TEXT
+──────────────────────────────────────────── */
+/* Body copy, headings, handles and emails are all selectable; only buttons and nav chrome opt out. */
+.page { user-select: text; -webkit-user-select: text; }
+.page button, .langBtn, .navLink, .storeBadge, .storeBtn, .storeBtnLg, .btnPrimary, .btnGhost,
+.copyBtn, .cardSocial, .socialItemIcon { user-select: none; -webkit-user-select: none; }
+.appDesc, .appName, .appFeature, .missionPara, .aboutPara, .sectionTitle, .sectionSub,
+.contactEmail, .socialItemHandle, .downloadText, .stepText {
+  cursor: text;
+}
+.contactEmail, .socialItemHandle { user-select: all; -webkit-user-select: all; }
+.page ::selection { background: rgba(96, 165, 250, 0.4); color: #ffffff; }
+
+.copyRow {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+.copyBtn {
+  font: inherit;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: #94a3b8;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 8px;
+  padding: 0.2rem 0.6rem;
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s;
+  flex-shrink: 0;
+}
+.copyBtn:hover { color: #f1f5f9; border-color: rgba(255,255,255,0.3); }
+
+/* ────────────────────────────────────────────
+   STORE BADGES + CARD SOCIALS
+──────────────────────────────────────────── */
+.storeBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.45rem 0.95rem 0.45rem 0.8rem;
+  min-width: 150px;
+  border-radius: 10px;
+  background: #000000;
+  border: 1px solid rgba(255,255,255,0.28);
+  color: #ffffff;
+  text-decoration: none;
+  transition: border-color 0.2s, transform 0.2s;
+}
+.storeBadge:hover {
+  border-color: var(--app-color, #3b82f6);
+  transform: translateY(-2px);
+}
+.storeBadgeText {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.1;
+}
+.storeBadgeText small {
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  opacity: 0.85;
+}
+
+.cardSocials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.cardSocial {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: #94a3b8;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: color 0.2s, border-color 0.2s, transform 0.2s;
+}
+.cardSocial:hover {
+  color: #ffffff;
+  border-color: var(--app-color, #3b82f6);
+  transform: translateY(-2px);
+}
+
+/* Per-product social details in the Contact section */
+.socialGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+.socialCard {
+  padding: 1.5rem;
+  background: rgba(13,18,37,0.6);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 16px;
+}
+.socialList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+.socialItem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.socialItemIcon {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  color: #94a3b8;
+  background: rgba(255,255,255,0.05);
+  transition: color 0.2s;
+}
+.socialItemIcon:hover { color: #ffffff; }
+.socialItemText {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  flex: 1;
+}
+.socialItemNet { font-size: 0.68rem; color: #64748b; text-transform: uppercase; letter-spacing: 0.06em; }
+.socialItemHandle { font-size: 0.88rem; color: #e2e8f0; word-break: break-word; }

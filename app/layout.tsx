@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Salela Bongo LLC — Apprenez. Changez Votre Vie.",
     description:
-      "Applications mobiles et plateformes numériques conçues pour l'Afrique — en français, anglais et lingala. / Mobile apps and digital platforms built for Africa — in French, English, and Lingala.",
+      "Applications mobiles et plateformes numériques conçues pour l'Afrique — en français, anglais, lingala et swahili. / Mobile apps and digital platforms built for Africa — in French, English, Lingala, and Swahili.",
     url: "https://www.salelabongo.org",
     siteName: "Salela Bongo LLC",
     locale: "fr_FR",

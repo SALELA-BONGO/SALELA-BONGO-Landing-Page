@@ -1,0 +1,331 @@
+{
+  "common": {
+    "backToHome": "Rudi Mwanzo",
+    "backToLegal": "Nyaraka Zote za Kisheria",
+    "legalIndexTitle": "Taarifa za Kisheria",
+    "legalIndexSub": "Sera za kampuni kwa majukwaa yote ya Salela Bongo LLC.",
+    "companyFooter": "Salela Bongo LLC — salelabongo.org"
+  },
+  "index": {
+    "cards": [
+      {
+        "href": "/legal/privacy",
+        "label": "Sera ya Faragha",
+        "description": "Jinsi tunavyokusanya, kutumia na kulinda taarifa zako kwenye majukwaa yetu."
+      },
+      {
+        "href": "/legal/terms",
+        "label": "Masharti ya Huduma",
+        "description": "Kanuni na masharti ya kutumia huduma za Salela Bongo LLC."
+      },
+      {
+        "href": "/legal/community-guidelines",
+        "label": "Miongozo ya Jamii",
+        "description": "Viwango vya mwingiliano wa heshima katika jamii zetu."
+      },
+      {
+        "href": "/legal/data-deletion",
+        "label": "Ufutaji wa Data",
+        "description": "Jinsi ya kuomba kufutwa kwa akaunti yako na taarifa zako binafsi."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Sera ya Faragha",
+    "lastUpdated": "Ilisasishwa mwisho: Juni 2026",
+    "intro": "Sera hii ya Faragha inaeleza jinsi Salela Bongo LLC (\"Kampuni\", \"sisi\") inavyokusanya, kutumia na kulinda taarifa binafsi unapotumia majukwaa yetu, yakiwemo Jeux de Dames (jeuxdedames.africa), DarAkili (darakili.com) na Yebela Store (yebela.store).",
+    "sections": [
+      {
+        "number": "1.",
+        "title": "Taarifa Tunazokusanya",
+        "body": "Kulingana na jukwaa unalotumia, tunaweza kukusanya:",
+        "list": [
+          "Taarifa za akaunti: anwani ya barua pepe, jina la mtumiaji, jina kamili, lugha unayopendelea na maelezo ya hiari ya wasifu (mfano: nchi, mji, picha ya wasifu kwenye DarAkili).",
+          "Data ya matumizi: kozi zilizofunguliwa, masomo yaliyokamilishwa, msimbo (code) uliowasilishwa, takwimu za michezo, shughuli za duka, muda wa kuingia na data ya kipindi (session).",
+          "Data ya mawasiliano: ujumbe wa gumzo (chat) ndani ya mchezo kwenye Jeux de Dames na mawasiliano na timu ya msaada.",
+          "Kumbukumbu za malipo: kiasi cha muamala, tarehe na hali ya malipo. Taarifa za malipo huchakatwa na watoa huduma za malipo walioidhinishwa. Hatuhifadhi nambari kamili za kadi za benki kwenye seva zetu."
+        ]
+      },
+      {
+        "number": "2.",
+        "title": "Jinsi Tunavyotumia Taarifa Zako",
+        "list": [
+          "Kutoa na kuendesha huduma zetu: uthibitishaji wa akaunti, uchezaji, upatikanaji wa kozi, uendeshaji wa msimbo, ufuatiliaji wa maendeleo na usimamizi wa duka.",
+          "Kuonyesha msimamo na orodha ya washindi (leaderboards) unapokubali kushiriki (DarAkili, Jeux de Dames).",
+          "Kuchakata manunuzi, ufadhili wa kozi na vifurushi vya kulipia (premium).",
+          "Kutuma mawasiliano yanayohusu akaunti: uthibitishaji, kubadilisha nenosiri, uthibitisho wa manunuzi na taarifa za maendeleo.",
+          "Kuboresha majukwaa yetu kupitia uchambuzi wa matumizi uliokusanywa bila kutaja majina ya watumiaji."
+        ]
+      },
+      {
+        "number": "3.",
+        "title": "Ushirikishaji wa Taarifa",
+        "body": "Hatuuzi taarifa zako binafsi. Tunashiriki data pekee na:",
+        "list": [
+          "Watoa huduma za malipo: wachakataji walioidhinishwa kwa malipo ya kadi na pesa za simu (Mobile Money).",
+          "Watoa huduma za kiufundi: washirika wanaoaminika wanaosaidia katika uthibitishaji, uhifadhi wa data na uendeshaji wa seva.",
+          "Wafadhili wa kozi: mtu anapofadhili kozi yako kwenye DarAkili, anaweza kuona jina lako na maendeleo yako kwenye kozi hiyo.",
+          "Waandaji wa kozi: takwimu za jumla pekee (kiwango cha ukamilishaji, alama za jumla), na si taarifa binafsi za mwanafunzi mmoja mmoja.",
+          "Uchambuzi (Analytics): zana zinazoheshimu faragha ambazo hazitumii vidakuzi (cookies) vya ufuatiliaji wala kukusanya taarifa binafsi."
+        ]
+      },
+      {
+        "number": "4.",
+        "title": "Uhifadhi na Usalama wa Data",
+        "body": "Data yako inahifadhiwa kwenye hifadhidata zilizosimbwa kwa njia fiche (encrypted databases). Mbinu za usimbaji fiche na uthibitishaji za viwango vya kimataifa zinalinda data yako inaposafirishwa na inapohifadhiwa. Msimbo wa wanafunzi kwenye DarAkili huendeshwa katika mazingira salama na yaliyotengwa."
+      },
+      {
+        "number": "5.",
+        "title": "Haki Zako",
+        "body": "Una haki ya kuona, kusahihisha, kuhamisha (export) na kufuta taarifa zako binafsi. Njia za kufuta hutofautiana kulingana na jukwaa — tazama ukurasa wetu wa Ufutaji wa Data. Kwa maombi mengine ya faragha, wasiliana nasi kupitia contact@salelabongo.org au barua pepe ya jukwaa husika."
+      },
+      {
+        "number": "6.",
+        "title": "Vidakuzi (Cookies) na Hifadhi ya Kifaa",
+        "body": "Hatutumii vidakuzi vya ufuatiliaji vya wahusika wa tatu. Tunatumia hifadhi ya ndani ya kivinjari (local storage) kwa tokeni za kuingia, mapendeleo ya lugha na hali ya kihariri. Hakuna taarifa binafsi inayoshirikiwa na wahusika wengine kwa ajili ya matangazo ya biashara."
+      },
+      {
+        "number": "7.",
+        "title": "Muda wa Kuhifadhi Data",
+        "body": "Tunahifadhi taarifa binafsi wakati akaunti yako ikiwa hai. Unapofuta akaunti yako, taarifa zako binafsi huondolewa kabisa ndani ya siku 30. Takwimu za jumla zisizomtambulisha mtu zinaweza kubaki kwa ajili ya kuboresha huduma. Kumbukumbu za miamala ya kifedha zinaweza kuhifadhiwa kwa mujibu wa sheria lakini bila utambulisho wako."
+      },
+      {
+        "number": "8.",
+        "title": "Faragha ya Watoto",
+        "body": "Majukwaa yetu hayalengi watoto walio chini ya umri wa miaka 13. Hatukusanyi kwa makusudi taarifa binafsi kutoka kwa watoto walio chini ya miaka 13. Tukigundua kuwa mtoto aliye chini ya miaka 13 amefungua akaunti, tutaifuta mara moja. Wazazi au walezi wanaweza kuwasiliana nasi kupitia contact@salelabongo.org."
+      },
+      {
+        "number": "9.",
+        "title": "Watumiaji wa Kimataifa",
+        "body": "Salela Bongo LLC inaendeshwa kutoka Marekani (United States). Kwa kutumia huduma zetu, unaridhia kuhamishwa kwa data yako kwenda Marekani."
+      },
+      {
+        "number": "10.",
+        "title": "Mabadiliko ya Sera Hii",
+        "body": "Tunaweza kusasisha sera hii mara kwa mara. Mabadiliko yatachapishwa kwenye ukurasa huu. Watumiaji waliosajiliwa watajulishwa kuhusu mabadiliko makubwa kupitia barua pepe. Kuendelea kutumia huduma baada ya mabadiliko kunamaanisha kuwa umekubali sera iliyosasishwa."
+      },
+      {
+        "number": "11.",
+        "title": "Mawasiliano",
+        "body": "Kwa maswali yanayohusu faragha: contact@salelabongo.org. Msaada kwa kila jukwaa: jeuxdedames@salelabongo.org (Jeux de Dames), darakili@salelabongo.org (DarAkili), contact@yebela.store (Yebela Store). Tunajibu ndani ya saa 48 za kazi."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Masharti ya Huduma",
+    "lastUpdated": "Ilisasishwa mwisho: Juni 2026",
+    "intro": "Masharti haya ya Huduma yanaongoza matumizi yako ya majukwaa yote yanayoendeshwa na Salela Bongo LLC, yakiwemo Jeux de Dames, DarAkili na Yebela Store. Kwa kutumia huduma zetu zozote, unakubaliana na masharti haya.",
+    "sections": [
+      {
+        "number": "1.",
+        "title": "Kukubali Masharti",
+        "body": "Kwa kuingia au kutumia jukwaa lolote la Salela Bongo LLC, unakubali kufungwa na Masharti haya ya Huduma. Ikiwa hukubaliani nayo, tafadhali usitumie huduma zetu."
+      },
+      {
+        "number": "2.",
+        "title": "Vigezo vya Umri",
+        "body": "Lazima uwe na umri wa angalau miaka 13 ili kutumia majukwaa yetu. Ikiwa una umri kati ya miaka 13 na 18, lazima uwe na ruhusa kutoka kwa mzazi au mlezi wa kisheria."
+      },
+      {
+        "number": "3.",
+        "title": "Akaunti za Watumiaji",
+        "body": "Unapaswa kutoa taarifa sahihi unapofungua akaunti. Unawajibika kutunza usiri wa nywila yako na kwa shughuli zote zinazofanyika kupitia akaunti yako. Akaunti moja tu kwa kila mtu inaruhusiwa isipokuwa kama imeelezwa vinginevyo."
+      },
+      {
+        "number": "4.",
+        "title": "Jeux de Dames",
+        "subsections": [
+          {
+            "title": "Kanuni za Mchezo",
+            "body": "Michezo huchezwa kulingana na kanuni za dama za kimataifa (10×10), za Kongo (DRC) au za Kimarekani, kulingana na aina iliyochaguliwa. Udanganyifu, programu za kusaidia kucheza au kuchezea matokeo ni marufuku kabisa."
+          },
+          {
+            "title": "Gumzo Ndani ya Mchezo",
+            "body": "Gumzo la mchezo ni kwa ajili ya mawasiliano ya kirafiki. Kauli za chuki, unyanyasaji, vitisho, taka (spam) na maudhui ya ngono ni marufuku. Watumiaji wanaweza kuripoti ujumbe na kuwazuia (block) watumiaji wengine."
+          },
+          {
+            "title": "Kifurushi cha Kulipia (Premium)",
+            "body": "Huduma za kulipia zinaongozwa na masharti yanayoonyeshwa wakati wa ununuzi. Usimamizi wa kifurushi chako unapatikana kwenye mipangilio ya akaunti yako."
+          }
+        ]
+      },
+      {
+        "number": "5.",
+        "title": "DarAkili",
+        "subsections": [
+          {
+            "title": "Maudhui ya Kozi na Miliki ya Kiakili",
+            "body": "Kozi huandaliwa na wanajamii ambao wanabaki kuwa wamiliki wa maudhui yao ya asili. Kwa kuwasilisha kozi, waandaji wanaipa DarAkili leseni ya kudumu, isiyoweza kubatilishwa na ya kimataifa ya kuhifadhi, kuonyesha na kusambaza kozi hiyo, ikiwa ni pamoja na baada ya kufutwa kwa akaunti ya mwandaji kwa kozi ambazo tayari zina wanafunzi waliojiunga. Watumiaji hawaruhusiwi kunakili, kusambaza upya au kuuza maudhui ya kozi bila ruhusa ya mwandaji."
+          },
+          {
+            "title": "Malipo na Manunuzi",
+            "body": "Baadhi ya kozi zinahitaji malipo ya mara moja ili kupata ufikiaji wa kudumu kupitia watoa huduma za malipo walioidhinishwa (kadi za benki na Mobile Money). Bei zinaonyeshwa kwa USD. Viwango vya Mobile Money hubadilishwa kwa kutumia viwango vya kubadilisha fedha vya soko wakati wa kufanya malipo. Manunuzi yote ya kozi ni ya mwisho pindi ufikiaji unapotolewa."
+          },
+          {
+            "title": "Uendeshaji wa Msimbo na Usalama",
+            "body": "Msimbo (code) unaowasilishwa kwa ajili ya usahihishaji huendeshwa katika mazingira salama. Unakubali kutowasilisha msimbo hatari au kujaribu kuhujumu mfumo wa uendeshaji."
+          },
+          {
+            "title": "Masharti ya Mapato ya Waandaji wa Kozi",
+            "body": "Wakati wa kuwasilisha kozi ya kulipia, waandaji huchagua mgao wa mapato kati ya 0% na 50% (chaguo-msingi ni 25% kwa mwandaji, 75% kwa jukwaa) kwa kila ununuzi halisi baada ya makato ya mtoa huduma za malipo. Makubaliano haya yanafunga kwa muda wote wa kibiashara wa kozi hiyo. Malipo hutolewa kila mwezi kupitia njia za malipo zilizoidhinishwa, kulingana na kiwango cha chini cha malipo. Waandaji wanawajibika kwa kodi katika nchi zao."
+          }
+        ]
+      },
+      {
+        "number": "6.",
+        "title": "Yebela Store",
+        "body": "Yebela Store inatoa katalogi ya mtandaoni na usimamizi wa duka kwa wajasiriamali. Wamiliki wa maduka wanawajibika kwa usahihi wa bidhaa zao, kufuata sheria za biashara na mawasiliano ya heshima na wateja. Salela Bongo LLC inatoa miundombinu ya jukwaa pekee na si mshirika katika miamala kati ya wamiliki wa maduka na wanunuzi."
+      },
+      {
+        "number": "7.",
+        "title": "Kanuni za Maadili",
+        "body": "Watumiaji wote wanapaswa kuwa na nidhamu na heshima kwenye majukwaa yote. Matusi, unyanyasaji, lugha ya kibaguzi, wizi wa kazi za wengine (plagiarism), udanganyifu kwenye mitihani na kuchezea orodha za washindi ni marufuku. Tuna haki ya kusimamisha au kufunga akaunti zinazokiuka viwango hivi."
+      },
+      {
+        "number": "8.",
+        "title": "Miliki ya Kiakili",
+        "body": "Msimbo, muundo, maandishi na michoro ya majukwaa ni mali ya Salela Bongo LLC isipokuwa kama imeelezwa vinginevyo. Maudhui ya kozi na maduka yanabaki kuwa mali ya waandaji na wamiliki wake husika."
+      },
+      {
+        "number": "9.",
+        "title": "Ufutaji na Usitishaji wa Akaunti",
+        "body": "Unaweza kufuta akaunti yako wakati wowote kupitia mipangilio ya jukwaa au kwa kuwasiliana nasi (tazama ukurasa wa Ufutaji wa Data). Tunaweza kusimamisha au kufunga akaunti zinazokiuka masharti haya."
+      },
+      {
+        "number": "10.",
+        "title": "Kikomo cha Dhima",
+        "body": "Majukwaa yetu yanatolewa \"kama yalivyo\" bila dhamana ya aina yoyote. Salela Bongo LLC haitawajibika kwa hasara zisizo za moja kwa moja au za matokeo zinazotokana na matumizi yako ya huduma zetu."
+      },
+      {
+        "number": "11.",
+        "title": "Mabadiliko ya Masharti",
+        "body": "Tunaweza kusasisha masharti haya mara kwa mara. Watumiaji waliosajiliwa watajulishwa kuhusu mabadiliko makubwa kupitia barua pepe. Kuendelea kutumia huduma kunamaanisha kuwa umekubali masharti yaliyosasishwa."
+      },
+      {
+        "number": "12.",
+        "title": "Sheria Inayoongoza na Mawasiliano",
+        "body": "Masharti haya yanaongozwa na sheria za Marekani (United States). Kwa maswali, wasiliana nasi kupitia contact@salelabongo.org. Kampuni: Salela Bongo LLC."
+      }
+    ]
+  },
+  "communityGuidelines": {
+    "title": "Miongozo ya Jamii",
+    "lastUpdated": "Ilisasishwa mwisho: Juni 2026",
+    "intro": "Salela Bongo LLC inajenga jamii ambapo Waafrika wanajifunza, wanacheza na kujenga biashara. Miongozo hii inatumika kwenye Jeux de Dames, DarAkili na Yebela Store.",
+    "sections": [
+      {
+        "number": "1.",
+        "title": "Heshima na Uungwana Michezoni",
+        "body": "Waheshimu watumiaji wote bila kujali kiwango chao cha ujuzi, lugha au asili yao. Kuwa mstaarabu unaposhinda na unaposhindwa. Wapongeze wapinzani na washirika wako kwa kazi nzuri."
+      },
+      {
+        "number": "2.",
+        "title": "Kanuni za Mawasiliano",
+        "list": [
+          "Hakuna kauli za chuki, ubaguzi au matusi ya aina yoyote.",
+          "Hakuna unyanyasaji, uonevu au vitisho dhidi ya watumiaji wengine.",
+          "Hakuna maudhui ya ngono au vurugu.",
+          "Hakuna taka (spam), matangazo yasiyoruhusiwa au ujumbe unaojirudia kupita kiasi.",
+          "Usishiriki taarifa binafsi za siri (zako au za watu wengine)."
+        ]
+      },
+      {
+        "number": "3.",
+        "title": "Uchezaji na Ujifunzaji wa Haki",
+        "body": "Cheza na ujifunze kwa uaminifu. Usitumie roboti (bots), zana za msaada za nje au kufanya udanganyifu kwenye majaribio. Usikate mtandao kwa makusudi ili kukwepa kushindwa. Usichezee matokeo ya mchezo au orodha za washindi kwa njama au njia zisizo za haki."
+      },
+      {
+        "number": "4.",
+        "title": "Viwango vya Maudhui (DarAkili na Yebela)",
+        "list": [
+          "Usiwasilishe maudhui yaliyoibiwa au yenye hakimiliki ya wengine bila ruhusa.",
+          "Toa maelezo sahihi ya bidhaa na taarifa za kozi.",
+          "Ripoti hitilafu za kiufundi (bugs), mapungufu ya kiusalama au maudhui yasiyofaa kwa timu yetu."
+        ]
+      },
+      {
+        "number": "5.",
+        "title": "Kuripoti na Kuzuia",
+        "body": "Ripoti tabia isiyofaa kwa kutumia zana za kuripoti zilizomo ndani ya programu, au tuma barua pepe kwenye anwani ya msaada ya jukwaa husika. Kwenye Jeux de Dames, unaweza kuwazuia (block) watumiaji kwenye gumzo. Ripoti zote hukaguliwa na timu yetu."
+      },
+      {
+        "number": "6.",
+        "title": "Hatua Dhidi ya Ukiukaji",
+        "list": [
+          "Kosa la kwanza: Onyo kutoka kwa wasimamizi.",
+          "Kosa la pili: Kusimamishwa kwa muda (saa 24–72).",
+          "Kosa la tatu: Kusimamishwa kwa muda mrefu (wiki 1–4).",
+          "Ukiukaji mkubwa au unaojirudia: Kufungiwa akaunti moja kwa moja."
+        ]
+      },
+      {
+        "number": "7.",
+        "title": "Kigezo cha Umri",
+        "body": "Lazima uwe na umri wa angalau miaka 13. Watumiaji wenye umri kati ya miaka 13 na 18 lazima wawe na ruhusa ya mzazi au mlezi. Haturuhusu kwa makusudi watoto walio chini ya miaka 13 kufungua akaunti."
+      },
+      {
+        "number": "8.",
+        "title": "Mawasiliano",
+        "body": "Una maswali kuhusu miongozo hii? Wasiliana nasi kupitia contact@salelabongo.org au barua pepe ya msaada ya jukwaa unalotumia."
+      }
+    ]
+  },
+  "dataDeletion": {
+    "title": "Ufutaji wa Data",
+    "lastUpdated": "Ilisasishwa mwisho: Juni 2026",
+    "intro": "Una haki ya kuomba kufutwa kwa akaunti yako na taarifa zako zote binafsi zinazohusiana nayo. Tumejitolea kushughulikia ombi lako kwa haraka.",
+    "sections": [
+      {
+        "number": "1.",
+        "title": "Haki Yako ya Kufuta Data",
+        "body": "Chini ya Sera yetu ya Faragha, unaweza kufuta kabisa akaunti yako na taarifa zako binafsi wakati wowote. Ufutaji unakamilishwa ndani ya siku 30. Utapokea barua pepe ya uthibitisho pindi mchakato unapokamilika."
+      },
+      {
+        "number": "2.",
+        "title": "Jeux de Dames",
+        "list": [
+          "Ingia kwenye akaunti yako kisha nenda kwenye Mipangilio ya Akaunti (Account Settings) → Eneo la Hatari (Danger Zone) → Futa Akaunti Yangu (Delete My Account).",
+          "Au tuma barua pepe kwenda jeuxdedames@salelabongo.org ukiambatanisha barua pepe yako iliyosajiliwa na jina la mtumiaji."
+        ]
+      },
+      {
+        "number": "3.",
+        "title": "DarAkili",
+        "list": [
+          "Ingia kwenye akaunti yako na ufute akaunti yako kupitia Mipangilio ya Wasifu (Profile Settings).",
+          "Pakua (export) data yako kutoka kwenye Mipangilio ya Wasifu kabla ya kufuta ikiwa unahitaji.",
+          "Au tuma barua pepe kwenda darakili@salelabongo.org ukiambatanisha anwani yako ya barua pepe iliyosajiliwa."
+        ]
+      },
+      {
+        "number": "4.",
+        "title": "Yebela Store",
+        "list": [
+          "Wasiliana na contact@yebela.store ukitumia barua pepe ya akaunti ya duka lako na uombe kufutwa kwa akaunti."
+        ]
+      },
+      {
+        "number": "5.",
+        "title": "Data Inayofutwa",
+        "list": [
+          "Anwani ya barua pepe na vitambulisho vya kuingia",
+          "Jina la mtumiaji na taarifa za wasifu",
+          "Historia ya michezo, maendeleo ya kozi na data ya duka",
+          "Ujumbe wa gumzo na historia ya mawasiliano",
+          "Mapendeleo ya lugha na mwonekano"
+        ]
+      },
+      {
+        "number": "6.",
+        "title": "Uhifadhi wa Data Baada ya Kufutwa",
+        "body": "Taarifa binafsi huondolewa kabisa ndani ya siku 30. Takwimu za jumla zisizohusishwa na utambulisho wako zinaweza kuhifadhiwa. Kumbukumbu za miamala ya kifedha zinaweza kuhifadhiwa kwa mujibu wa sheria lakini utambulisho wako utaondolewa. Kwenye DarAkili, kozi zilizochapishwa ambazo zina wanafunzi waliojiunga zinaweza kubaki kwenye jukwaa baada ya kufutwa kwa akaunti ya mwandaji (tazama Masharti ya Huduma)."
+      },
+      {
+        "number": "7.",
+        "title": "Maswali ya Jumla",
+        "body": "Kwa maswali kuhusu ufutaji wa data kwenye jukwaa lolote: contact@salelabongo.org"
+      }
+    ],
+    "footerNote": "Tazama pia Sera yetu ya Faragha kwa maelezo kamili kuhusu haki zako za data."
+  }
+}

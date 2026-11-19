@@ -31,7 +31,7 @@ export function LegalLayout({
           <span>Salela Bongo</span>
         </Link>
         <div className={styles.langSwitcher}>
-          {(["fr", "en", "ln"] as Language[]).map((l) => (
+          {(["fr", "en", "ln", "sw"] as Language[]).map((l) => (
             <button
               key={l}
               onClick={() => handleLangChange(l)}

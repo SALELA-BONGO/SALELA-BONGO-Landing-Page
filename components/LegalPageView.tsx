@@ -53,7 +53,12 @@ export function LegalPageView({
                 )}
                 {lang === "ln" && (
                   <>
-                    Talá mpe <Link href="/legal/privacy">Politique ya Confidentialité</Link> na biso mpo na makoki na yo mobimba.
+                    Talá mpe <Link href="/legal/privacy">Mibeko na biso ya Kobomba Sekele</Link> mpo na koyeba makoki na yo mobimba.
+                  </>
+                )}
+                {lang === "sw" && (
+                  <>
+                    Tazama pia <Link href="/legal/privacy">Sera yetu ya Faragha</Link> kwa maelezo kamili kuhusu haki zako za data.
                   </>
                 )}
               </>

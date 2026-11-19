@@ -1,4 +1,4 @@
-export type Language = "fr" | "en" | "ln";
+export type Language = "fr" | "en" | "ln" | "sw";
 
 export const LANG_STORAGE_KEY = "salelabongo-lang";
 
@@ -38,8 +38,9 @@ export type LegalContent = {
 import en from "../content/legal/en.json";
 import fr from "../content/legal/fr.json";
 import ln from "../content/legal/ln.json";
+import sw from "../content/legal/sw.json";
 
-const content: Record<Language, LegalContent> = { en, fr, ln };
+const content: Record<Language, LegalContent> = { en, fr, ln, sw };
 
 export function getLegalContent(lang: Language): LegalContent {
   return content[lang] ?? content.en;
@@ -48,7 +49,7 @@ export function getLegalContent(lang: Language): LegalContent {
 export function getStoredLanguage(): Language {
   if (typeof window === "undefined") return "fr";
   const stored = localStorage.getItem(LANG_STORAGE_KEY);
-  if (stored === "en" || stored === "fr" || stored === "ln") return stored;
+  if (stored === "en" || stored === "fr" || stored === "ln" || stored === "sw") return stored;
   return "fr";
 }
 
