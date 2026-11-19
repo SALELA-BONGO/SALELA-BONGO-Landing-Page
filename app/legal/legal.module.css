@@ -12,7 +12,7 @@
   border-bottom: 1px solid var(--border);
   position: sticky;
   top: 0;
-  background: rgba(5, 8, 20, 0.9);
+  background: rgba(251, 247, 240, 0.92);
   backdrop-filter: blur(12px);
   z-index: 10;
 }
@@ -35,7 +35,7 @@
 .langSwitcher {
   display: flex;
   gap: 0.25rem;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(14, 46, 54, 0.06);
   border-radius: 8px;
   padding: 3px;
 }
@@ -57,8 +57,8 @@
 }
 
 .langActive {
-  background: rgba(59, 130, 246, 0.2);
-  color: #60a5fa;
+  background: rgba(15, 107, 122, 0.14);
+  color: #0f6b7a;
 }
 
 .main {
@@ -71,7 +71,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  color: #60a5fa;
+  color: #0f6b7a;
   text-decoration: none;
   font-size: 0.875rem;
   margin-bottom: 1.5rem;
@@ -79,7 +79,7 @@
 }
 
 .backLink:hover {
-  color: #93c5fd;
+  color: #0a4f5b;
 }
 
 .pageHeader {
@@ -129,7 +129,7 @@
 }
 
 .sectionNumber {
-  color: #60a5fa;
+  color: #0f6b7a;
 }
 
 .sectionBody {
@@ -173,7 +173,7 @@
 }
 
 .footerNote a {
-  color: #60a5fa;
+  color: #0f6b7a;
   text-decoration: none;
 }
 
@@ -185,7 +185,7 @@
   text-align: center;
   margin-top: 2rem;
   font-size: 0.75rem;
-  color: rgba(148, 163, 184, 0.5);
+  color: rgba(14, 46, 54, 0.45);
 }
 
 .indexTitle {
@@ -220,8 +220,8 @@
 }
 
 .card:hover {
-  border-color: rgba(59, 130, 246, 0.4);
-  background: rgba(13, 18, 37, 0.9);
+  border-color: rgba(15, 107, 122, 0.4);
+  background: rgba(255, 255, 255, 0.95);
 }
 
 .cardLabel {
@@ -237,7 +237,7 @@
 
 .cardArrow {
   margin-top: auto;
-  color: #60a5fa;
+  color: #0f6b7a;
   font-size: 0.85rem;
 }
 

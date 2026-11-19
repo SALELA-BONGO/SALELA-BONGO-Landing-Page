@@ -1,18 +1,32 @@
 @import "tailwindcss";
 
 :root {
-  --bg-primary: #050814;
-  --bg-secondary: #0d1225;
-  --bg-card: rgba(13, 18, 37, 0.7);
-  --accent-blue: #3b82f6;
-  --accent-violet: #8b5cf6;
-  --accent-gold: #f59e0b;
-  --accent-emerald: #10b981;
-  --text-primary: #f1f5f9;
-  --text-secondary: #94a3b8;
-  --border: rgba(255, 255, 255, 0.08);
+  /* Palette drawn from the Salela Bongo mark (glowing teal brain and gears): deep teal ink,
+     warm cream paper, amber and clay as the accents. */
+  --bg-primary: #fbf7f0;
+  --bg-secondary: #f3ecdf;
+  --bg-card: rgba(255, 255, 255, 0.88);
+  --accent-blue: #0f6b7a;
+  --accent-violet: #0f6b7a;
+  --accent-gold: #e39b2d;
+  --accent-emerald: #0b7a58;
+  --text-primary: #0e2e36;
+  --text-secondary: #3f5a63;
+  --border: rgba(14, 46, 54, 0.12);
   --font-sans: var(--font-inter), system-ui, sans-serif;
   --font-display: var(--font-space-grotesk), system-ui, sans-serif;
+
+  --ink: #0e2e36;
+  --ink-2: #3f5a63;
+  --ink-3: #56707a;
+  --teal: #0f6b7a;
+  --teal-d: #0a4f5b;
+  --teal-l: #1aa3b8;
+  --amber: #e39b2d;
+  --clay: #c4552f;
+  --cream: #fbf7f0;
+  --sand: #f3ecdf;
+  --deep: #0a3a45;
 }
 
 *,
@@ -45,7 +59,7 @@ body {
   background: var(--bg-primary);
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(139, 92, 246, 0.4);
+  background: rgba(15, 107, 122, 0.45);
   border-radius: 3px;
 }
 
@@ -55,7 +69,7 @@ body {
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #3b82f6, #8b5cf6, #ec4899);
+  background: linear-gradient(135deg, #0f6b7a, #1aa3b8, #e39b2d);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -76,11 +90,11 @@ body {
 }
 
 .glow-blue {
-  box-shadow: 0 0 40px rgba(59, 130, 246, 0.15);
+  box-shadow: 0 0 40px rgba(15, 107, 122, 0.15);
 }
 
 .glow-violet {
-  box-shadow: 0 0 40px rgba(139, 92, 246, 0.15);
+  box-shadow: 0 0 40px rgba(15, 107, 122, 0.15);
 }
 
 /* ──────────── Animated BG Stars ──────────── */
@@ -105,9 +119,9 @@ body {
 }
 
 @keyframes pulse-ring {
-  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(139, 92, 246, 0.4); }
-  70% { transform: scale(1); box-shadow: 0 0 0 12px rgba(139, 92, 246, 0); }
-  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(139, 92, 246, 0); }
+  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(15, 107, 122, 0.4); }
+  70% { transform: scale(1); box-shadow: 0 0 0 12px rgba(15, 107, 122, 0); }
+  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(15, 107, 122, 0); }
 }
 
 .animate-fadeInUp {

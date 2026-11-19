@@ -116,7 +116,7 @@ const t = {
         "Salela Bongo LLC est née d'une conviction simple et puissante : l'intelligence africaine mérite des outils à sa hauteur. Notre nom, \"Salela Bongo\", est un appel en Lingala — \"Utilise ton cerveau\" — un cri de ralliement pour chaque Africain et chaque membre de la diaspora qui refuse de rester spectateur dans la révolution numérique.",
         "Nos produits sont plus que du logiciel. Nous forgeons des espaces où l'intelligence africaine peut s'exercer, apprendre, jouer et entreprendre — en français, en anglais, en lingala et en swahili. Comme Masakhane (\"Nous construisons ensemble\"), nous croyons que l'avenir technologique de l'Afrique sera bâti par ceux qui comprennent son contexte, parlent ses langues et portent sa culture dans leur code.",
         "Le sport nourrit le corps. Nous nourrissons l'intelligence. Chaque partie de dames jouée, chaque cours suivi, chaque boutique créée sur nos plateformes est un exercice intellectuel — un pas de plus vers une Afrique qui pense, innove et domine le numérique.",
-        "Aujourd'hui, alors que le monde se concentre massivement sur l'entraînement de grands modèles d'intelligence artificielle (IA) et de grands modèles linguistiques (LLM), nous croyons qu'il faut d'abord entraîner le jeune cerveau africain. L'Afrique a la population la plus jeune du monde, avec un âge médian d'environ 19 ans. D'ici 2050, le continent sera le principal moteur de la croissance démographique mondiale, ce qui signifie que l'avenir du monde est intrinsèquement lié au développement intellectuel de la jeunesse africaine. (<a href=\"https://population.un.org/wpp/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #60a5fa; text-decoration: underline;\">Réf : Perspectives de la population mondiale des Nations Unies</a>)",
+        "Aujourd'hui, alors que le monde se concentre massivement sur l'entraînement de grands modèles d'intelligence artificielle (IA) et de grands modèles linguistiques (LLM), nous croyons qu'il faut d'abord entraîner le jeune cerveau africain. L'Afrique a la population la plus jeune du monde, avec un âge médian d'environ 19 ans. D'ici 2050, le continent sera le principal moteur de la croissance démographique mondiale, ce qui signifie que l'avenir du monde est intrinsèquement lié au développement intellectuel de la jeunesse africaine. (<a href=\"https://population.un.org/wpp/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: var(--teal); text-decoration: underline;\">Réf : Perspectives de la population mondiale des Nations Unies</a>)",
       ],
     },
     about: {
@@ -219,7 +219,7 @@ const t = {
     doublevoix: {
       label: "DoubleVoix · doublevoix.com",
       title: "L'idée derrière DoubleVoix",
-      renameNote: "Anciennement <strong>CBD — Doublage Bilingue Consécutif</strong>, hébergé sur cbd.salelabongo.org. Le projet porte désormais son propre nom et sa propre adresse : <a href=\"https://www.doublevoix.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #fb923c; text-decoration: underline;\">www.doublevoix.com</a>. Deux voix, une seule vidéo.",
+      renameNote: "Anciennement <strong>CBD — Doublage Bilingue Consécutif</strong>, hébergé sur cbd.salelabongo.org. Le projet porte désormais son propre nom et sa propre adresse : <a href=\"https://www.doublevoix.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #b4540a; text-decoration: underline;\">www.doublevoix.com</a>. Deux voix, une seule vidéo.",
       howTitle: "Le rythme d'un interprète, reproduit",
       steps: [
         { n: "1", text: "L'orateur parle — sa voix, ses mots, intacts." },
@@ -289,7 +289,7 @@ const t = {
           ctaUrl: "https://kuetu.salelabongo.org",
         },
       ],
-      note: "Kuetu est en phase pilote : les annotateurs et les coordinateurs de projet sont admis progressivement, sur invitation. Écrivez à <a href=\"mailto:kuetu@salelabongo.org\" style=\"color: #a78bfa; text-decoration: underline;\">kuetu@salelabongo.org</a> pour demander un accès.",
+      note: "Kuetu est en phase pilote : les annotateurs et les coordinateurs de projet sont admis progressivement, sur invitation. Écrivez à <a href=\"mailto:kuetu@salelabongo.org\" style=\"color: var(--teal-d); text-decoration: underline;\">kuetu@salelabongo.org</a> pour demander un accès.",
     },
     legal: {
       title: "Conformité & Légal",
@@ -326,7 +326,7 @@ const t = {
         "Salela Bongo LLC was born from a simple yet powerful conviction: African intelligence deserves tools built to match. Our name, \"Salela Bongo\", is a rallying cry in Lingala — \"Use Your Brain\" — a call to every African and every member of the diaspora who refuses to be a spectator in the digital revolution.",
         "Our products are more than software. We forge spaces where the African mind can exercise, learn, play, and build businesses — in French, English, Lingala, and Swahili. Like Masakhane (\"We build together\"), we believe Africa's technological future will be shaped by those who understand its context, speak its languages, and carry its culture in their code.",
         "Sports nourish the body. We nourish the mind. Every checkers game played, every course completed, every shop created on our platforms is an intellectual workout — one more step toward an Africa that thinks, innovates, and leads in the digital age.",
-        "Today, as the world focuses heavily on training big AI models and Large Language Models (LLMs), we believe in training the younger African mind first. Africa has the youngest population in the world, with a median age of approximately 19 years old. By 2050, the continent will be the primary driver of global population growth, meaning the future of the world is inherently tied to the intellectual development of African youth. (<a href=\"https://population.un.org/wpp/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #60a5fa; text-decoration: underline;\">Ref: United Nations World Population Prospects</a>)",
+        "Today, as the world focuses heavily on training big AI models and Large Language Models (LLMs), we believe in training the younger African mind first. Africa has the youngest population in the world, with a median age of approximately 19 years old. By 2050, the continent will be the primary driver of global population growth, meaning the future of the world is inherently tied to the intellectual development of African youth. (<a href=\"https://population.un.org/wpp/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: var(--teal); text-decoration: underline;\">Ref: United Nations World Population Prospects</a>)",
       ],
     },
     about: {
@@ -429,7 +429,7 @@ const t = {
     doublevoix: {
       label: "DoubleVoix · doublevoix.com",
       title: "The Idea Behind DoubleVoix",
-      renameNote: "Formerly <strong>CBD — Consecutive Bilingual Dubbing</strong>, hosted at cbd.salelabongo.org. The project now carries its own name and its own address: <a href=\"https://www.doublevoix.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #fb923c; text-decoration: underline;\">www.doublevoix.com</a>. Two voices, one video.",
+      renameNote: "Formerly <strong>CBD — Consecutive Bilingual Dubbing</strong>, hosted at cbd.salelabongo.org. The project now carries its own name and its own address: <a href=\"https://www.doublevoix.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #b4540a; text-decoration: underline;\">www.doublevoix.com</a>. Two voices, one video.",
       howTitle: "An interpreter's rhythm, reproduced",
       steps: [
         { n: "1", text: "The speaker talks — their voice, their words, untouched." },
@@ -499,7 +499,7 @@ const t = {
           ctaUrl: "https://kuetu.salelabongo.org",
         },
       ],
-      note: "Kuetu is in pilot: annotators and project coordinators are admitted gradually, by invitation. Write to <a href=\"mailto:kuetu@salelabongo.org\" style=\"color: #a78bfa; text-decoration: underline;\">kuetu@salelabongo.org</a> to request access.",
+      note: "Kuetu is in pilot: annotators and project coordinators are admitted gradually, by invitation. Write to <a href=\"mailto:kuetu@salelabongo.org\" style=\"color: var(--teal-d); text-decoration: underline;\">kuetu@salelabongo.org</a> to request access.",
     },
     legal: {
       title: "Compliance & Legal",
@@ -536,7 +536,7 @@ const t = {
         "Salela Bongo LLC ebotamaki na kondima moko ya pete kasi ya nguya: mayele ya Afrika ebongi na bisaleli oyo ekokani na yango. Nkombo na biso, \"Salela Bongo\", ezali mbela na Lingala — \"Salelá bongo na yo\" — libengi mpo na Mwa-Afrika nyonso mpe moto nyonso ya diaspora oyo aboyi kozala kaka motali na mbongwana ya numérique.",
         "Biloko na biso ezali kaka ba logiciels te. Totongaka bisika epai mayele ya Afrika ekoki kosala ngalasisi, koyekola, kosakana mpe kotonga mombongo — na Français, Anglais, Lingala mpe Kiswahili. Lokola Masakhane (\"Totongaka elongo\"), tondimi ete lobi ya teknoloji ya Afrika ekotongama na baoyo bayebi bomoi na yango, balobaka minoko na yango mpe bamemaka bonkoko na yango na kati ya code na bango.",
         "Sport eleisaka nzoto. Biso toleisaka mayele. Lisano nyonso ya dames oyo esakanami, liteya nyonso oyo elandami, butiki nyonso oyo efungolami na ba plateformes na biso ezali ngalasisi ya bongo — litambe mosusu mpo na Afrika oyo ekanisaka, ebimisaka makambo ya sika mpe ekambaka na ntango ya numérique.",
-        "Lelo oyo, ntango mokili mobimba ezali kotia makanisi mingi na koteya ba modèles minene ya Intelligence Artificielle (IA) mpe ba modèles minene ya minoko (LLM), biso tondimi ete esengeli liboso kolendisa mpe koteya bongo ya bilenge ya Afrika. Afrika nde ezali na bato oyo baleki bilenge na mokili mobimba, na mbula ya katikati (âge médian) pene na mibu 19. Tii na mobu 2050, Afrika ekozala nguya ya liboso ya bokoli ya motango ya bato na mokili, yango elakisi ete lobi ya mokili mobimba ekangami makasi na bokoli ya mayele ya bilenge ya Afrika. (<a href=\"https://population.un.org/wpp/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #60a5fa; text-decoration: underline;\">Réf : Makanisi ya Nations Unies mpo na Motango ya Bato na Mokili</a>)",
+        "Lelo oyo, ntango mokili mobimba ezali kotia makanisi mingi na koteya ba modèles minene ya Intelligence Artificielle (IA) mpe ba modèles minene ya minoko (LLM), biso tondimi ete esengeli liboso kolendisa mpe koteya bongo ya bilenge ya Afrika. Afrika nde ezali na bato oyo baleki bilenge na mokili mobimba, na mbula ya katikati (âge médian) pene na mibu 19. Tii na mobu 2050, Afrika ekozala nguya ya liboso ya bokoli ya motango ya bato na mokili, yango elakisi ete lobi ya mokili mobimba ekangami makasi na bokoli ya mayele ya bilenge ya Afrika. (<a href=\"https://population.un.org/wpp/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: var(--teal); text-decoration: underline;\">Réf : Makanisi ya Nations Unies mpo na Motango ya Bato na Mokili</a>)",
       ],
     },
     about: {
@@ -639,7 +639,7 @@ const t = {
     doublevoix: {
       label: "DoubleVoix · doublevoix.com",
       title: "Likanisi oyo ezali nsima ya DoubleVoix",
-      renameNote: "Liboso ezalaki <strong>CBD — Doublage Bilingue Consécutif</strong>, na cbd.salelabongo.org. Sikoyo mosala oyo ezali na nkombo na yango moko mpe adresse na yango moko : <a href=\"https://www.doublevoix.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #fb923c; text-decoration: underline;\">www.doublevoix.com</a>. Mingongo mibale, vidéo moko.",
+      renameNote: "Liboso ezalaki <strong>CBD — Doublage Bilingue Consécutif</strong>, na cbd.salelabongo.org. Sikoyo mosala oyo ezali na nkombo na yango moko mpe adresse na yango moko : <a href=\"https://www.doublevoix.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #b4540a; text-decoration: underline;\">www.doublevoix.com</a>. Mingongo mibale, vidéo moko.",
       howTitle: "Momesano ya mobongoli (interprète), ndenge moko",
       steps: [
         { n: "1", text: "Molobi azali koloba — mongongo na ye, maloba na ye, ebongwani te." },
@@ -709,7 +709,7 @@ const t = {
           ctaUrl: "https://kuetu.salelabongo.org",
         },
       ],
-      note: "Kuetu ezali na etape ya pilote : basali mpe bakambi ya ba projets bazali koyambama moke-moke, na libengi. Komelá <a href=\"mailto:kuetu@salelabongo.org\" style=\"color: #a78bfa; text-decoration: underline;\">kuetu@salelabongo.org</a> mpo na kosenga nzela ya kokota.",
+      note: "Kuetu ezali na etape ya pilote : basali mpe bakambi ya ba projets bazali koyambama moke-moke, na libengi. Komelá <a href=\"mailto:kuetu@salelabongo.org\" style=\"color: var(--teal-d); text-decoration: underline;\">kuetu@salelabongo.org</a> mpo na kosenga nzela ya kokota.",
     },
     legal: {
       title: "Mibeko & Bosembo",
@@ -746,7 +746,7 @@ const t = {
         "Salela Bongo LLC ilizaliwa kutokana na imani rahisi lakini yenye nguvu: akili ya Mwafrika inastahili zana zilizojengwa kuendana na uwezo wake. Jina letu, \"Salela Bongo\", ni wito wa Kilingala — \"Tumia Ubongo Wako\" — mwito wa hamasa kwa kila Mwafrika na kila mwana-diaspora anayekataa kuwa mtazamaji tu katika mapinduzi ya kidijitali.",
         "Bidhaa zetu ni zaidi ya programu za kompyuta. Tunajenga majukwaa ambapo akili ya Mwafrika inaweza kufanya mazoezi, kujifunza, kucheza na kujenga biashara — kwa Kifaransa, Kiingereza, Kilingala na Kiswahili. Kama ilivyo Masakhane (\"Tunajenga pamoja\"), tunaamini kuwa mustakabali wa teknolojia barani Afrika utajengwa na wale wanaoelewa mazingira yake, wanaozungumza lugha zake na wanaobeba utamaduni wake ndani ya msimbo (code) wao.",
         "Michezo hulisha mwili. Sisi tunalisha akili. Kila mchezo wa dama unaochezwa, kila kozi inayokamilishwa, na kila duka linalofunguliwa kwenye majukwaa yetu ni zoezi la kiakili — hatua moja zaidi kuelekea Afrika inayofikiri, inayobuni na kuongoza katika ulimwengu wa kidijitali.",
-        "Leo hii, wakati dunia ikielekeza nguvu kubwa katika kufundisha mifumo mikubwa ya Akili Mnemba (AI) na mifumo mikubwa ya lugha (LLMs), tunaamini katika kuifundisha na kuiimarisha akili ya vijana wa Kiafrika kwanza. Afrika ina idadi kubwa zaidi ya vijana duniani, ikiwa na umri wa wastani (median age) wa takriban miaka 19. Ifikapo mwaka 2050, bara la Afrika litakuwa kichocheo kikuu cha ukuaji wa idadi ya watu duniani, ikimaanisha kuwa mustakabali wa dunia umeunganishwa moja kwa moja na maendeleo ya kiakili ya vijana wa Afrika. (<a href=\"https://population.un.org/wpp/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #60a5fa; text-decoration: underline;\">Rejea: Matarajio ya Idadi ya Watu Duniani ya Umoja wa Mataifa</a>)",
+        "Leo hii, wakati dunia ikielekeza nguvu kubwa katika kufundisha mifumo mikubwa ya Akili Mnemba (AI) na mifumo mikubwa ya lugha (LLMs), tunaamini katika kuifundisha na kuiimarisha akili ya vijana wa Kiafrika kwanza. Afrika ina idadi kubwa zaidi ya vijana duniani, ikiwa na umri wa wastani (median age) wa takriban miaka 19. Ifikapo mwaka 2050, bara la Afrika litakuwa kichocheo kikuu cha ukuaji wa idadi ya watu duniani, ikimaanisha kuwa mustakabali wa dunia umeunganishwa moja kwa moja na maendeleo ya kiakili ya vijana wa Afrika. (<a href=\"https://population.un.org/wpp/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: var(--teal); text-decoration: underline;\">Rejea: Matarajio ya Idadi ya Watu Duniani ya Umoja wa Mataifa</a>)",
       ],
     },
     about: {
@@ -849,7 +849,7 @@ const t = {
     doublevoix: {
       label: "DoubleVoix · doublevoix.com",
       title: "Wazo Nyuma ya DoubleVoix",
-      renameNote: "Awali ilijulikana kama <strong>CBD — Consecutive Bilingual Dubbing</strong>, kwenye cbd.salelabongo.org. Sasa mradi huu una jina lake na anwani yake rasmi: <a href=\"https://www.doublevoix.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #fb923c; text-decoration: underline;\">www.doublevoix.com</a>. Sauti mbili, video moja.",
+      renameNote: "Awali ilijulikana kama <strong>CBD — Consecutive Bilingual Dubbing</strong>, kwenye cbd.salelabongo.org. Sasa mradi huu una jina lake na anwani yake rasmi: <a href=\"https://www.doublevoix.com\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #b4540a; text-decoration: underline;\">www.doublevoix.com</a>. Sauti mbili, video moja.",
       howTitle: "Mwendo wa mkalimani, ukiigwa kikamilifu",
       steps: [
         { n: "1", text: "Mzungumzaji anaongea — sauti yake na maneno yake yanabaki kama yalivyo." },
@@ -919,7 +919,7 @@ const t = {
           ctaUrl: "https://kuetu.salelabongo.org",
         },
       ],
-      note: "Kuetu ipo katika hatua ya majaribio (pilot): wachambuzi na waratibu wa miradi wanapokelewa hatua kwa hatua kwa mwaliko. Andika barua pepe kwenda <a href=\"mailto:kuetu@salelabongo.org\" style=\"color: #a78bfa; text-decoration: underline;\">kuetu@salelabongo.org</a> kuomba ufikiaji.",
+      note: "Kuetu ipo katika hatua ya majaribio (pilot): wachambuzi na waratibu wa miradi wanapokelewa hatua kwa hatua kwa mwaliko. Andika barua pepe kwenda <a href=\"mailto:kuetu@salelabongo.org\" style=\"color: var(--teal-d); text-decoration: underline;\">kuetu@salelabongo.org</a> kuomba ufikiaji.",
     },
     legal: {
       title: "Sheria na Uzingatiaji",
@@ -986,6 +986,7 @@ export default function Home() {
 
       {/* ── HERO ── */}
       <section id="top" className={styles.hero}>
+        <Image src="/Rounded.png" alt="" width={104} height={104} className={styles.heroLogo} priority />
         <div className={styles.heroBadge}>{txt.hero.badge}</div>
         <h1 className={styles.heroHeadline}>{txt.hero.headline}</h1>
         <p className={styles.heroSub}>{txt.hero.sub}</p>
